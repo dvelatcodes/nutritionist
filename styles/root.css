@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Alata&family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Commissioner:wght@100..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Kumbh+Sans:wght@100..900&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
 
 * {
     padding: 0;
@@ -8,17 +8,17 @@
 }
 
 :root {
-    --lemon: #CBEA7B;
-    --dark-green: #262626;
-    --light-green: #FAFDF2;
-    --thick-text: #1A3129;
-    --button-text: #262626;
-    --happy: #234338;
-    --p-text: #333333;
-    --blog-p-text: #4C4C4D;
-    --date-text: #59595A;
-    --black: #000000;
-    --white: #FFFFFF;
-    --green-text: #2C5446;
-    --grey: #F2F2F2;
+  --color-lemon: #CBEA7B;
+  --color-dark-green: #262626;
+  --color-light-green: #FAFDF2;
+  --color-thick-text: #1A3129;
+  --color-button-text: #262626;
+  --color-happy: #234338;
+  --color-p-text: #333333;
+  --color-blog-p-text: #4C4C4D;
+  --color-date-text: #59595A;
+  --color-black: #000000;
+  --color-white: #FFFFFF;
+  --color-green-text: #2C5446;
+  --color-grey: #F2F2F2;
 }
