@@ -6,3 +6,18 @@ header{
     justify-content: space-around;
     align-items: center;
 }
+
+.logo-container{
+    display: flex;
+    align-items: center;
+    column-gap: 6px;
+}
+
+.navigation-container ul {
+    display: none;
+}
+
+.hamburger{
+    cursor: pointer;
+    transition: transform 0.9s ease-in-out;
+}
