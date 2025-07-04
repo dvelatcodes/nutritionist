@@ -25,16 +25,17 @@ header{
 }
 
 .nav-links {
-    display: none;
+    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     list-style-type: none;
     row-gap: 1rem;
     position: absolute;
-    left: 0;
+    /* left: 0; */
     right: 0;
     margin: auto;
+    transform: translateX(100%);
 }
 
 
