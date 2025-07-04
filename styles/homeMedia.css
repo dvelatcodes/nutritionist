@@ -1,0 +1,22 @@
+@media screen and (min-width: 1024px) {
+  .hamburger {
+    display: none;
+  }
+
+  .navigation-container {
+    position: unset;
+    right: -100vw;
+    top: unset;
+    transition: unset;
+  }
+
+  .nav-links {
+    width: fit-content;
+    height: fit-content;
+    background-color: transparent;
+    flex-direction: row;
+    justify-content: unset;
+    row-gap: unset;
+    column-gap: 1.2rem;
+  }
+}

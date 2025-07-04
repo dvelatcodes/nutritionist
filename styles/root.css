@@ -24,7 +24,11 @@
     font-family: "Urbanist", sans-serif;
 }
 
+html, body {
+  overflow-x: hidden;
+}
+
 body{
     background-color: var(--bg-light);
-    overflow-x: hidden;
 }
+
