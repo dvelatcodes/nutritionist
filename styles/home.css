@@ -1,4 +1,4 @@
-header{
+  header {
     height: 74px;
     width: 100vw;
     position: sticky;
@@ -7,31 +7,23 @@ header{
     display: flex;
     justify-content: space-around;
     align-items: center;
-}
+  }
 
-.logo-container{
+  .logo-container {
     display: flex;
     align-items: center;
     column-gap: 6px;
-}
+  }
 
-.navigation-container{
-    width: fit-content;
-    height: fit-content;
-    position: fixed;
-    right: -100vw;
-    top: 0;
-    transition: right 0.9s ease-in-out;
-}
-
-.hamburger{
+  .hamburger {
+    display: block;
     cursor: pointer;
     transition: transform 0.9s ease-in-out;
     position: relative;
     z-index: 100;
-}
+  }
 
-.nav-links {
+  .nav-links {
     width: 100vw;
     height: 100vh;
     background-color: var(--color-dark-green);
@@ -41,21 +33,20 @@ header{
     align-items: center;
     list-style-type: none;
     row-gap: 2.5rem;
-}
+  }
 
-
-.nav-links li a {
+  .page {
     text-decoration: none;
     font-size: 1.4rem;
     color: var(--color-light-green);
-}
+  }
 
-.nav-links li:hover a{
+  .nav-links li:hover a {
     color: var(--color-lemon);
-}
+  }
 
-.contact{
+  .contact {
     color: var(--color-button-text);
     padding: 0.5rem 0.5rem 0.5rem 0.5rem;
     background-color: var(--color-lemon);
-}
+  }
