@@ -26,26 +26,35 @@ header{
 
 .nav-links {
     width: 100%;
-    height: 100%;
+    height: 100vh;
+    background-color: var(--color-dark-green);
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     list-style-type: none;
-    row-gap: 1rem;
+    row-gap: 2.5rem;
     position: absolute;
     left: 0;
     right: 0;
     top: 0;
-    /* margin: auto; */
-    /* transform: translateX(100%); */
+    transform: translateX(100%);
     transition: transform 0.9s ease-in-out;
 }
 
 
 .nav-links li a {
     text-decoration: none;
+    font-size: 1.4rem;
     color: var(--color-light-green);
+}
+
+.nav-links li:hover a{
+    color: var(--color-lemon);
+}
+
+.nav-links a:active {
+    color: var(--color-lemon);
 }
 
 .contact{
