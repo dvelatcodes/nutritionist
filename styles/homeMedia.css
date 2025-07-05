@@ -1,0 +1,9 @@
+@media screen and (max-width: 1440px) {
+  .hero-left{
+  background-image: url('../assets/laptop/images/coach.png');
+  width: 710px;
+  height: 712px;
+}
+
+
+}

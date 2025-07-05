@@ -6,8 +6,8 @@
   align-items: center;
 }
 
-.hero-left{
-  background-image: url('../assets/desktop/images/coach.png');
+.hero-left {
+  background-image: url("../assets/desktop/images/coach.png");
   background-repeat: no-repeat;
   background-size: cover;
   width: 949px;
@@ -36,4 +36,29 @@
   font-size: 18px;
   font-weight: 500;
   color: var(--color-p-text);
+}
+
+.btn-cover {
+  display: flex;
+  column-gap: 1rem;
+}
+
+.btn-cover button{
+  cursor: pointer;
+  font-size: 18px;
+  height: 59px;
+  border-radius: 0.7rem;
+}
+
+.btn-cover button:nth-child(1) {
+  width: 187px;
+  background-color: var(--color-lemon);
+  border: none;
+}
+
+.btn-cover button:nth-child(2) {
+  width: 154px;
+  background-color: var(--bg-light);
+  border: 0.2px solid var(--color-lemon);
+  box-shadow: 2px 2px 6px var(--color-lemon);
 }
