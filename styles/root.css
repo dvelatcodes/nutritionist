@@ -25,14 +25,15 @@
   font-family: "Urbanist", sans-serif;
 }
 
-html,
+/* html,
 body {
   overflow-x: hidden;
-}
+} */
 
 body {
   background-color: var(--bg-light);
   width: 100vw;
+  height: fit-content;
   max-width: 1920px;
   margin: auto;
 }
@@ -49,6 +50,7 @@ header {
   justify-content: space-between;
   padding: 0 5rem 0 5rem;
   align-items: center;
+  z-index: 100;
 }
 
 .logo-container {
@@ -61,7 +63,9 @@ header {
   display: none;
   cursor: pointer;
   transition: transform 0.9s ease-in-out;
-  position: relative;
+  position: fixed;
+  top: 1.6rem;
+  right: 1.5rem;
   z-index: 100;
 }
 
@@ -94,14 +98,13 @@ header {
   color: var(--color-dark-green);
 }
 
-.nav-links .contact:hover .page{
+.nav-links .contact:hover .page {
   color: var(--color-black);
 }
 
-.contact:hover{
+.contact:hover {
   background-color: var(--color-thick-lemon);
 }
-
 
 @media screen and (max-width: 1024px) {
   .nav-links {
@@ -113,19 +116,21 @@ header {
     column-gap: 1.4rem;
   }
 
-  .page{
+  .page {
     font-size: 1rem;
   }
 }
 
 @media screen and (max-width: 862px) {
-  header{
+  header {
     padding: 0 1rem 0 1rem;
   }
 }
 
-
 @media screen and (max-width: 768px) {
+  header {
+    width: 100vw;
+  }
   .navigation-container {
     width: fit-content;
     height: fit-content;
@@ -167,5 +172,3 @@ header {
     background-color: var(--color-lemon);
   }
 }
-
-

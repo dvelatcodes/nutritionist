@@ -4,6 +4,7 @@
   display: flex;
   column-gap: 2rem;
   align-items: center;
+  overflow-x: hidden;
 }
 
 .hero-left {
@@ -24,8 +25,16 @@
   color: var(--color-p-text);
   font-size: 28px;
   font-weight: 600;
+  position: relative;
+}
+
+.hero-right .title::before {
+  content: "";
+  position: absolute;
+  bottom: -0.2rem;
+  left: 0;
   border-bottom: 3px solid var(--color-lemon);
-  padding-bottom: 0.2rem;
+  width: 60%;
 }
 
 .hero-right h1 {
@@ -74,7 +83,7 @@
 }
 
 .btn-cover button:nth-child(2):hover {
-  background-color: var( --color-dark-green);
+  background-color: var(--color-dark-green);
   color: var(--bg-light);
 }
 
