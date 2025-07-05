@@ -165,92 +165,56 @@
   }
 }
 
-
 @media screen and (max-width: 425px) {
   .hero-left {
-    background-image: url('../assets/mobile/images/coach.png');
+    background-image: url("../assets/mobile/images/coach.png");
     width: 100vw;
     height: 374px;
-    border-bottom-left-radius: 2.5rem;
-    border-bottom-right-radius: 2.5rem;
+    border-bottom-left-radius: unset;
+    border-bottom-right-radius: unset;
   }
 
   .hero-right {
-    width: 100vw;
-    padding-top: 7rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .hero-right > .title {
-    text-align: center;
+    padding-top: 6.5rem;
   }
 
   .hero-right .title::before {
-    right: 0;
-    margin: auto;
-    width: 320px;
-    bottom: -0.4rem;
+    width: 300px;
   }
-
   .hero-right h1 {
-    text-align: center;
-    font-size: 38px;
-    font-weight: 700;
-    margin: 1.7rem 0 1.5rem 0;
+    font-size: 35px;
   }
 
   .hero-right p {
-    text-align: center;
-    width: 85%;
-    font-size: 18px;
-    margin-bottom: 2.7rem;
+    width: 92%;
+    font-size: 16px;
+    margin-bottom: 2.5rem;
   }
 
   .btn-cover {
-    display: flex;
-    column-gap: 1rem;
-    margin-bottom: 3.5rem;
+    margin-bottom: unset;
   }
 
   .btn-cover button {
-    cursor: pointer;
-    font-size: 18px;
-    height: 59px;
-    border-radius: 0.7rem;
-    transition: all 0.3s ease-in-out;
+    font-size: 14px;
+    height: 49px;
   }
 
   .btn-cover button:nth-child(1) {
-    width: 187px;
-    background-color: var(--color-lemon);
-    border: none;
+    width: 147px;
   }
 
-  .btn-cover button:nth-child(1):hover {
-    background-color: var(--color-thick-lemon);
-  }
-
-  .slogan {
-    flex-direction: column;
-    column-gap: 0;
-    width: fit-content;
-    row-gap: 0.7rem;
-    position: absolute;
-    left: 0;
-    right: 0;
-    margin: auto;
-    top: -2.3rem;
-  }
-
-  .slogan div {
-    border-radius: 2.3rem;
-    width: 150px;
-    height: 7.5vh;
+  .btn-cover button:nth-child(2) {
+    width: 123px;
   }
 
   .btn-cover {
     margin-bottom: 0;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .hero-left {
+    height: 310px;
   }
 }
