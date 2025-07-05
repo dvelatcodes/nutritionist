@@ -242,6 +242,39 @@
   .card-container .card {
     width: 88vw;
   }
+.blog-card {
+    width: 88vw;
+}
+
+  .drink-water {
+  background-image: url("../assets/mobile/images/drink-water.png");
+}
+
+.burger-orange {
+  background-image: url("../assets/mobile/images/burger-orange.png");
+}
+
+.apple-burger {
+  background-image: url("../assets/mobile/images/apple-burger.png");
+}
+
+.chips-pear {
+  background-image: url("../assets/mobile/images/chips-pear.png");
+}
+
+.drink-water,
+.burger-orange,
+.apple-burger,
+.chips-pear {
+  width: 90%;
+  height: 300px;
+}
+
+.writer-cover {
+  width: 90%;
+  height: 83px;
+}
+
 }
 
 @media screen and (max-width: 425px) {
