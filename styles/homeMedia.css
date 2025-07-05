@@ -1,17 +1,48 @@
 @media screen and (max-width: 1440px) {
-  .hero-left{
-  background-image: url('../assets/laptop/images/coach.png');
-  width: 710px;
-  height: 712px;
+  .hero-left {
+    background-image: url("../assets/laptop/images/coach.png");
+    width: 710px;
+    height: 712px;
+  }
+
+  .hero-right {
+    width: 610px;
+  }
+
+  .hero-right > span {
+    font-size: 22px;
+  }
+
+  .hero-right h1 {
+    color: var(--color-thick-text);
+    font-size: 48px;
+  }
+
+  .hero-right p {
+  font-size: 16px;
+  }
+
+  .btn-cover button {
+  font-size: 14px;
+  height: 49px;
+  }
+
+  .btn-cover button:nth-child(1) {
+  width: 147px;
+  }
+
+   .btn-cover button:nth-child(2) {
+  width: 123px;
+  }
+
+  .btn-cover {
+  margin-bottom: 2.9rem;
 }
 
-
 }
-
-
 
 @media screen and (max-width: 768px) {
   .btn-cover {
     margin-bottom: 0;
   }
-  }
+}
