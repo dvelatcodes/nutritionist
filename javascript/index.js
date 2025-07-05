@@ -7,13 +7,13 @@ let header = document.querySelector('header');
 
 
 // function to toggle the nav screens for mobile view
-hamburger.addEventListener('click', (e)=>{
+hamburger.addEventListener('click', (e) => {
     if (hamChecker == false) {
         hamburger.style.transform = "rotate(-180deg)";
         navLinks.style.right = '0';
         hamChecker = true;
     }
-    else{
+    else {
         hamburger.style.transform = "rotate(360deg)";
         navLinks.style.right = '-100vw';
         hamChecker = false;
@@ -23,10 +23,15 @@ hamburger.addEventListener('click', (e)=>{
 
 
 // function to showcase active navigation link
-pages.forEach((page)=>{
+pages.forEach((page) => {
     let activePage = page.getAttribute('href');
     let url = window.location.pathname;
-    if (activePage == window.location.pathname) {
-        page.style.color = '#CBEA7B';
+    if (activePage == url) {
+        if (url.match(/\/pages\/contact.html/)) {
+            page.style.color = '#262626';
+        }
+        else {
+            page.style.color = '#CBEA7B';
+        }
     }
 })

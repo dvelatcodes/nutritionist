@@ -5,7 +5,6 @@
   --color-dark-green: #262626;
   --color-light-green: #fafdf2;
   --color-thick-text: #1a3129;
-  --color-button-text: #262626;
   --color-happy: #234338;
   --color-p-text: #333333;
   --color-blog-p-text: #4c4c4d;
@@ -85,9 +84,20 @@ header {
 }
 
 .contact {
-  color: var(--color-button-text);
   padding: 0.5rem 0.5rem 0.5rem 0.5rem;
   background-color: var(--color-lemon);
+}
+
+.contact a {
+  color: var(--color-dark-green);
+}
+
+.nav-links .contact:hover .page{
+  color: var(--color-black);
+}
+
+.contact:hover{
+  background-color: #b8f61c;
 }
 
 
