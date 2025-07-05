@@ -47,6 +47,9 @@
   .slogan div {
     width: 10vw;
   }
+
+    /* features section */
+    
 }
 
 @media screen and (max-width: 1336px) {
@@ -167,6 +170,8 @@
   .btn-cover {
     margin-bottom: 0;
   }
+
+    /* features section */
 }
 
 @media screen and (max-width: 425px) {
@@ -216,6 +221,8 @@
   .btn-cover {
     margin-bottom: 0;
   }
+
+    /* features section */
 }
 
 @media screen and (max-width: 375px) {
@@ -223,4 +230,7 @@
   .hero-left {
     height: 310px;
   }
+
+  /* features section */
+
 }
