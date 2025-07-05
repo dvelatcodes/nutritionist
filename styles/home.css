@@ -264,3 +264,19 @@
   width: 703px;
   height: 428px;
 }
+
+.blog-card h6 {
+  font-size: 18px;
+  font-weight: 500;
+  margin: 2.7rem 0 0.5rem 0;
+}
+
+.blog-card h4 {
+  font-size: 26px;
+  font-weight: 600;
+}
+
+.blog-card p {
+  width: 80%;
+  margin: 2rem 0 1.5rem 0;
+}
