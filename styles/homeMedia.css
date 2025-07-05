@@ -44,13 +44,48 @@
     width: 10vw;
   }
 
-  /* blog section */
+  /* feature section */
 
   .card-container .card {
   width: 630px;
   height: 226px;
   }
 
+  /* blog section */
+  
+  .blog-card {
+  width: 630px;
+  height: 666px;
+  }
+
+  .drink-water {
+  background-image: url("../assets/laptop/images/drink-water.png");
+}
+
+.burger-orange {
+  background-image: url("../assets/laptop/images/burger-orange.png");
+}
+
+.apple-burger {
+  background-image: url("../assets/laptop/images/apple-burger.png");
+}
+
+.chips-pear {
+  background-image: url("../assets/laptop/images/chips-pear.png");
+}
+
+.drink-water,
+.burger-orange,
+.apple-burger,
+.chips-pear {
+  width: 570px;
+  height: 336px;
+}
+
+.writer-cover {
+  width: 570px;
+  height: 83px;
+}
 }
 
 @media screen and (max-width: 1336px) {
@@ -79,6 +114,15 @@
   .hero-right p {
     width: 98%;
   }
+}
+
+@media screen and (max-width: 1290px) {
+.blog-container {
+  flex-direction: column;
+  column-gap: unset;
+  row-gap: 1rem;
+}
+
 }
 
 @media screen and (max-width: 768px) {
