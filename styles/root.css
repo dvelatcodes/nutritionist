@@ -107,8 +107,6 @@ header {
   background-color: var(--color-thick-lemon);
 }
 
-
-
 .the-h2 {
   font-size: 38px;
   font-weight: 700;
@@ -127,6 +125,7 @@ footer {
   height: 299px;
   margin: auto;
   background-color: var(--color-thick-text);
+  margin-top: 6rem;
 }
 
 @media screen and (max-width: 1440px) {
@@ -135,11 +134,10 @@ footer {
   }
 
   footer {
-  width: 100vw;
-  max-width: 1440px;
-  height: 299px;
-}
-
+    width: 100vw;
+    max-width: 1440px;
+    height: 299px;
+  }
 }
 
 @media screen and (max-width: 1024px) {
@@ -218,5 +216,3 @@ footer {
     font-size: 16px;
   }
 }
-
-
