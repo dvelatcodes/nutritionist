@@ -156,6 +156,7 @@
   font-weight: 500;
   color: var(--color-p-text);
   margin: 1rem 0 4rem 0;
+  text-align: center;
 }
 
 .card-container {
@@ -172,7 +173,7 @@
   height: 226px;
   background-color: var(--color-card);
   padding: 1.5rem 0 0 2rem;
-    box-shadow: 2px 1px 2px var(--color-lemon);
+  box-shadow: 2px 1px 2px var(--color-lemon);
   border-radius: 0.5rem;
 }
 
