@@ -121,10 +121,25 @@ p {
   color: var(--color-p-text);
 }
 
+footer {
+  width: 100vw;
+  max-width: 1920px;
+  height: 299px;
+  margin: auto;
+  background-color: var(--color-thick-text);
+}
+
 @media screen and (max-width: 1440px) {
   p {
     font-size: 16px;
   }
+
+  footer {
+  width: 100vw;
+  max-width: 1440px;
+  height: 299px;
+}
+
 }
 
 @media screen and (max-width: 1024px) {
