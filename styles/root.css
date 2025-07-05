@@ -35,3 +35,125 @@ body {
   max-width: 1920px;
   margin: auto;
 }
+
+header {
+  height: 74px;
+  width: 100vw;
+  max-width: 1920px;
+  margin: auto;
+  position: sticky;
+  top: 0;
+  background-color: var(--color-dark-green);
+  display: flex;
+  justify-content: space-between;
+  padding: 0 5rem 0 5rem;
+  align-items: center;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  column-gap: 6px;
+}
+
+.hamburger {
+  display: none;
+  cursor: pointer;
+  transition: transform 0.9s ease-in-out;
+  position: relative;
+  z-index: 100;
+}
+
+.nav-links {
+  width: fit-content;
+  height: fit-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+  column-gap: 2.5rem;
+}
+
+.page {
+  text-decoration: none;
+  font-size: 1.1rem;
+  color: var(--color-light-green);
+}
+
+.nav-links li:hover .page {
+  color: var(--color-lemon);
+}
+
+.contact {
+  color: var(--color-button-text);
+  padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+  background-color: var(--color-lemon);
+}
+
+
+@media screen and (max-width: 1024px) {
+  .nav-links {
+    width: fit-content;
+    height: fit-content;
+    background-color: transparent;
+    flex-direction: row;
+    justify-content: unset;
+    column-gap: 1.4rem;
+  }
+
+  .page{
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 862px) {
+  header{
+    padding: 0 1rem 0 1rem;
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  .navigation-container {
+    width: fit-content;
+    height: fit-content;
+    position: fixed;
+    right: -100vw;
+    top: 0;
+    transition: right 0.9s ease-in-out;
+  }
+
+  .hamburger {
+    display: inline;
+  }
+
+  .nav-links {
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--color-dark-green);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    row-gap: 2.5rem;
+  }
+
+  .page {
+    text-decoration: none;
+    font-size: 1.4rem;
+    color: var(--color-light-green);
+  }
+
+  .nav-links li:hover a {
+    color: var(--color-lemon);
+  }
+
+  .contact {
+    color: var(--color-button-text);
+    padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+    background-color: var(--color-lemon);
+  }
+}
+
+
