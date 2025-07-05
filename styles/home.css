@@ -6,7 +6,10 @@
   align-items: center;
 }
 
-.hero > img {
+.hero-left{
+  background-image: url('../assets/desktop/images/coach.png');
+  background-repeat: no-repeat;
+  background-size: cover;
   width: 949px;
   height: 832px;
 }
