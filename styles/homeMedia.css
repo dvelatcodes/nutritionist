@@ -19,26 +19,52 @@
   }
 
   .hero-right p {
-  font-size: 16px;
+    font-size: 16px;
   }
 
   .btn-cover button {
-  font-size: 14px;
-  height: 49px;
+    font-size: 14px;
+    height: 49px;
   }
 
   .btn-cover button:nth-child(1) {
-  width: 147px;
+    width: 147px;
   }
 
-   .btn-cover button:nth-child(2) {
-  width: 123px;
+  .btn-cover button:nth-child(2) {
+    width: 123px;
   }
 
   .btn-cover {
-  margin-bottom: 2.9rem;
+    margin-bottom: 2.9rem;
+  }
+
+  .slogan div {
+  width: 10vw;
+}
 }
 
+@media screen and (max-width: 1336px) {
+  .hero-right p {
+    width: 93%;
+  }
+}
+
+@media screen and (max-width: 1290px) {
+.hero-left {
+    width: 600px;
+    width: 50vw;
+    height: 650px;
+  }
+
+  .hero-right {
+  width: 644px;
+  width: 40vw;
+  }
+
+  .hero-right p {
+    width: 98%;
+  }
 }
 
 @media screen and (max-width: 768px) {
