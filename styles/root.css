@@ -107,6 +107,26 @@ header {
   background-color: var(--color-thick-lemon);
 }
 
+
+
+.the-h2 {
+  font-size: 38px;
+  font-weight: 700;
+  color: var(--color-dark-green);
+}
+
+p {
+  font-size: 18px;
+  font-weight: 500;
+  color: var(--color-p-text);
+}
+
+@media screen and (max-width: 1440px) {
+  p {
+    font-size: 16px;
+  }
+}
+
 @media screen and (max-width: 1024px) {
   .nav-links {
     width: fit-content;
@@ -172,11 +192,16 @@ header {
     padding: 0.5rem 0.5rem 0.5rem 0.5rem;
     background-color: var(--color-lemon);
   }
+
+  .hero-right p {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  p {
+    font-size: 16px;
+  }
 }
 
 
-.the-h2 {
-  font-size: 38px;
-  font-weight: 700;
-  color: var(--color-dark-green);
-}
