@@ -238,6 +238,7 @@
   padding: 1.5rem 0 0 2rem;
   box-shadow: 2px 1px 2px var(--color-lemon);
   border-radius: 0.5rem;
+  cursor: pointer;
 }
 
 .drink-water {
@@ -264,6 +265,15 @@
   background-size: cover;
   width: 703px;
   height: 428px;
+  transition: all 0.3s ease-in-out;
+}
+
+.drink-water:hover,
+.burger-orange:hover,
+.apple-burger:hover,
+.chips-pear:hover {
+  width: 706px;
+  height: 432px;
 }
 
 .blog-card h6 {
