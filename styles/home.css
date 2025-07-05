@@ -1,0 +1,36 @@
+.hero {
+  width: fit-content;
+  height: fit-content;
+  display: flex;
+  column-gap: 1.3rem;
+  align-items: center;
+}
+
+.hero > img {
+  width: 949px;
+  height: 832px;
+}
+
+.hero-right {
+  width: 644px;
+  height: 581px;
+  border: 2px solid black;
+}
+
+.hero-right span {
+  color: var(--color-p-text);
+  font-size: 28px;
+  font-weight: 600;
+}
+
+.hero-right h1 {
+  color: var(--color-thick-text);
+  font-size: 58px;
+  font-weight: 700;
+}
+
+.hero-right p {
+  font-size: 18px;
+  font-weight: 500;
+  color: var(--color-p-text);
+}
