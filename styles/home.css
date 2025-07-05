@@ -16,10 +16,11 @@
 
 .hero-right {
   width: 644px;
+  position: relative;
   height: fit-content;
 }
 
-.hero-right > span {
+.hero-right .title {
   color: var(--color-p-text);
   font-size: 28px;
   font-weight: 600;
