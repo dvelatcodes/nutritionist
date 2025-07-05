@@ -165,8 +165,8 @@
 }
 
 .card-container .card {
-  width: 630px;
-  height: 226px;
+  width: 783px;
+  height: 253px;
   background-color: var(--color-card);
   padding: 1.5rem 0 0 2rem;
   box-shadow: 2px 1px 2px var(--color-lemon);
@@ -233,6 +233,7 @@
 
 .blog-card {
   width: 783px;
+  height: 832px;
   background-color: var(--color-card);
   padding: 1.5rem 0 0 2rem;
   box-shadow: 2px 1px 2px var(--color-lemon);
