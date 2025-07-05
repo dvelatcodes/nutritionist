@@ -1,34 +1,37 @@
-@import url('https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap");
 
 :root {
-  --color-lemon: #CBEA7B;
+  --color-lemon: #cbea7b;
   --color-dark-green: #262626;
-  --color-light-green: #FAFDF2;
-  --color-thick-text: #1A3129;
+  --color-light-green: #fafdf2;
+  --color-thick-text: #1a3129;
   --color-button-text: #262626;
   --color-happy: #234338;
   --color-p-text: #333333;
-  --color-blog-p-text: #4C4C4D;
-  --color-date-text: #59595A;
+  --color-blog-p-text: #4c4c4d;
+  --color-date-text: #59595a;
   --color-black: #000000;
-  --color-white: #FFFFFF;
-  --color-green-text: #2C5446;
-  --color-grey: #F2F2F2;
-  --bg-light: #F6FBE9;
+  --color-white: #ffffff;
+  --color-green-text: #2c5446;
+  --color-grey: #f2f2f2;
+  --bg-light: #f6fbe9;
 }
 
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing:border-box;
-    font-family: "Urbanist", sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Urbanist", sans-serif;
 }
 
-html, body {
+html,
+body {
   overflow-x: hidden;
 }
 
-body{
-    background-color: var(--bg-light);
+body {
+  background-color: var(--bg-light);
+  width: 100vw;
+  max-width: 1920px;
+  margin: auto;
 }
-

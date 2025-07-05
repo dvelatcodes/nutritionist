@@ -1,16 +1,11 @@
 @media screen and (max-width: 1024px) {
-  .hamburger {
-    display: none;
-  }
-
   .nav-links {
     width: fit-content;
     height: fit-content;
     background-color: transparent;
     flex-direction: row;
     justify-content: unset;
-    row-gap: unset;
-    column-gap: 1.2rem;
+    column-gap: 1.4rem;
   }
 
   .page{
@@ -18,10 +13,10 @@
   }
 }
 
-@media screen and (max-width: 1158px) {
-    .nav-links {
-    column-gap: 3rem;
-    }
+@media screen and (max-width: 862px) {
+  header{
+    padding: 0 1rem 0 1rem;
+  }
 }
 
 
