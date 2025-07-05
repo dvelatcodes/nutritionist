@@ -47,45 +47,45 @@
   /* feature section */
 
   .card-container .card {
-  width: 630px;
-  height: 226px;
+    width: 630px;
+    height: 226px;
   }
 
   /* blog section */
-  
+
   .blog-card {
-  width: 630px;
-  height: 666px;
+    width: 630px;
+    height: 666px;
   }
 
   .drink-water {
-  background-image: url("../assets/laptop/images/drink-water.png");
-}
+    background-image: url("../assets/laptop/images/drink-water.png");
+  }
 
-.burger-orange {
-  background-image: url("../assets/laptop/images/burger-orange.png");
-}
+  .burger-orange {
+    background-image: url("../assets/laptop/images/burger-orange.png");
+  }
 
-.apple-burger {
-  background-image: url("../assets/laptop/images/apple-burger.png");
-}
+  .apple-burger {
+    background-image: url("../assets/laptop/images/apple-burger.png");
+  }
 
-.chips-pear {
-  background-image: url("../assets/laptop/images/chips-pear.png");
-}
+  .chips-pear {
+    background-image: url("../assets/laptop/images/chips-pear.png");
+  }
 
-.drink-water,
-.burger-orange,
-.apple-burger,
-.chips-pear {
-  width: 570px;
-  height: 336px;
-}
+  .drink-water,
+  .burger-orange,
+  .apple-burger,
+  .chips-pear {
+    width: 570px;
+    height: 336px;
+  }
 
-.writer-cover {
-  width: 570px;
-  height: 83px;
-}
+  .writer-cover {
+    width: 570px;
+    height: 83px;
+  }
 }
 
 @media screen and (max-width: 1336px) {
@@ -117,12 +117,11 @@
 }
 
 @media screen and (max-width: 1290px) {
-.blog-container {
-  flex-direction: column;
-  column-gap: unset;
-  row-gap: 1rem;
-}
-
+  .blog-container {
+    flex-direction: column;
+    column-gap: unset;
+    row-gap: 1rem;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -230,11 +229,11 @@
   }
 
   /* blog section */
-.blog-container {
-  flex-direction: column;
-  column-gap: 0;
-  row-gap: 0.5rem;
-}
+  .blog-container {
+    flex-direction: column;
+    column-gap: 0;
+    row-gap: 0.5rem;
+  }
 }
 
 @media screen and (max-width: 647px) {
@@ -242,39 +241,83 @@
   .card-container .card {
     width: 88vw;
   }
-.blog-card {
+  .blog-card {
     width: 88vw;
-}
+  }
 
   .drink-water {
-  background-image: url("../assets/mobile/images/drink-water.png");
+    background-image: url("../assets/mobile/images/drink-water.png");
+  }
+
+  .burger-orange {
+    background-image: url("../assets/mobile/images/burger-orange.png");
+  }
+
+  .apple-burger {
+    background-image: url("../assets/mobile/images/apple-burger.png");
+  }
+
+  .chips-pear {
+    background-image: url("../assets/mobile/images/chips-pear.png");
+  }
+
+  .drink-water,
+  .burger-orange,
+  .apple-burger,
+  .chips-pear {
+    width: 90%;
+    height: 300px;
+  }
+
+  .writer-cover {
+    width: 90%;
+    height: 83px;
+  }
 }
 
-.burger-orange {
-  background-image: url("../assets/mobile/images/burger-orange.png");
+@media screen and (max-width: 530px) {
+
+  .blog {
+  padding-top: 7rem;
 }
 
-.apple-burger {
-  background-image: url("../assets/mobile/images/apple-burger.png");
+.blog > h2 + p {
+  margin: 1.5rem 0 3rem 0;
+  width: 80%;
 }
 
-.chips-pear {
-  background-image: url("../assets/mobile/images/chips-pear.png");
+  .blog-card {
+    height: fit-content;
+    padding-bottom: 1.5rem;
+  }
+
+  .blog-card h4 {
+  font-size: 20px;
 }
 
-.drink-water,
-.burger-orange,
-.apple-burger,
-.chips-pear {
+.blog-card p {
+  margin: 1rem 0 2rem 0;
   width: 90%;
-  height: 300px;
 }
 
-.writer-cover {
-  width: 90%;
-  height: 83px;
-}
+  .writer-cover {
+    display: block;
+    height: fit-content;
+    padding: 1.5rem 0 1.5rem 1.5rem;
+  }
 
+  .caption{
+    margin-top: 2rem;
+    display: flex;
+    column-gap: 0.5rem;
+    width: 90%;
+    justify-content: right;
+  }
+
+  .writer div span:nth-child(2),
+  .writer div span:nth-child(1) {
+    font-size: 16px;
+  }
 }
 
 @media screen and (max-width: 425px) {
@@ -355,7 +398,23 @@
   }
 
   /* blog section */
+  .blog-container {
+    row-gap: 1.2rem;
+  }
+  .sub-blog-cover {
+    row-gap: 1.2rem;
+  }
+  .blog-card {
+    width: 96%;
+  }
 
+  .drink-water,
+  .burger-orange,
+  .apple-burger,
+  .chips-pear {
+    width: 95%;
+    height: 230px;
+  }
 }
 
 @media screen and (max-width: 375px) {
