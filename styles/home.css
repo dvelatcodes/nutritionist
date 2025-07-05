@@ -138,17 +138,13 @@
 
 .features {
   width: 100vw;
+  max-width: 1920px;
+  margin: auto;
   height: fit-content;
   display: flex;
   flex-direction: column;
   align-items: center;
   padding-top: 10rem;
-}
-
-.features h2 {
-  font-size: 38px;
-  font-weight: 700;
-  color: var(--color-dark-green);
 }
 
 .features p {
@@ -203,4 +199,12 @@
 
   /* blog section */
 
-  
+  .blog{
+    max-width: 1920px;
+    height: fit-content;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 10rem;
+  }

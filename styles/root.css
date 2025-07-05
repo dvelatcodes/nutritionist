@@ -173,3 +173,10 @@ header {
     background-color: var(--color-lemon);
   }
 }
+
+
+.the-h2 {
+  font-size: 38px;
+  font-weight: 700;
+  color: var(--color-dark-green);
+}
