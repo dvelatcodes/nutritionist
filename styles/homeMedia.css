@@ -1,4 +1,5 @@
 @media screen and (max-width: 1440px) {
+  /* hero tags */
   .hero-left {
     background-image: url("../assets/laptop/images/coach.png");
     width: 710px;
@@ -49,6 +50,7 @@
 }
 
 @media screen and (max-width: 1336px) {
+  /* hero tags */
   .hero-right .title::before {
     width: 310px;
   }
@@ -58,6 +60,7 @@
 }
 
 @media screen and (max-width: 1290px) {
+  /* hero tags */
   .hero-left {
     width: 600px;
     width: 50vw;
@@ -75,6 +78,7 @@
 }
 
 @media screen and (max-width: 768px) {
+  /* hero tags */
   .hero {
     flex-direction: column;
   }
@@ -166,6 +170,7 @@
 }
 
 @media screen and (max-width: 425px) {
+  /* hero tags */
   .hero-left {
     background-image: url("../assets/mobile/images/coach.png");
     width: 100vw;
@@ -214,6 +219,7 @@
 }
 
 @media screen and (max-width: 375px) {
+  /* hero tags */
   .hero-left {
     height: 310px;
   }
