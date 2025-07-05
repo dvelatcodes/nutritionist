@@ -197,14 +197,35 @@
   margin-top: 1.5rem;
 }
 
-  /* blog section */
+/* blog section */
 
-  .blog{
-    max-width: 1920px;
-    height: fit-content;
+.blog {
+  width: 100vw;
+  max-width: 1920px;
+  height: fit-content;
   margin: auto;
   display: flex;
   flex-direction: column;
   align-items: center;
   padding-top: 10rem;
-  }
+}
+
+.blog-container {
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  column-gap: 0.5rem;
+  justify-content: center;
+}
+
+.sub-blog-cover{
+  width: 45%;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  row-gap: 0.5rem;
+}
+
+.blog-card{
+
+}
