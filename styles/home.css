@@ -223,18 +223,44 @@
   margin: 1.5rem 0 4rem 0;
   width: 65%;
   text-align: center;
-} 
+}
 
-.sub-blog-cover{
+.sub-blog-cover {
   display: flex;
   flex-direction: column;
   row-gap: 1rem;
 }
 
-.blog-card{
+.blog-card {
   width: 783px;
   background-color: var(--color-card);
   padding: 1.5rem 0 0 2rem;
   box-shadow: 2px 1px 2px var(--color-lemon);
   border-radius: 0.5rem;
+}
+
+.drink-water {
+  background-image: url("../assets/desktop/images/drink-water.png");
+}
+
+.burger-orange {
+  background-image: url("../assets/desktop/images/burger-orange.png");
+}
+
+.apple-burger {
+  background-image: url("../assets/desktop/images/apple-burger.png");
+}
+
+.chips-pear {
+  background-image: url("../assets/desktop/images/chips-pear.png");
+}
+
+.drink-water,
+.burger-orange,
+.apple-burger,
+.chips-pear {
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 703px;
+  height: 428px;
 }
