@@ -7,3 +7,11 @@
 
 
 }
+
+
+
+@media screen and (max-width: 768px) {
+  .btn-cover {
+    margin-bottom: 0;
+  }
+  }
