@@ -289,5 +289,53 @@
 
 .blog-card p {
   width: 80%;
-  margin: 2rem 0 1.5rem 0;
+  margin: 2rem 0 2rem 0;
+}
+
+.writer-cover {
+  width: 703px;
+  height: 100px;
+  background-color: var(--color-light-green);
+  border-radius: 0.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 0.7rem 0 0.7rem;
+}
+
+.writer{
+  display: flex;
+  align-items: center;
+  column-gap: 1rem;
+}
+
+.writer img {
+  width: 50px;
+  height: 50px;
+}
+
+.writer div span:nth-child(1) {
+  display: block;
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 0.3rem;
+  color: var(--color-thick-text);
+}
+
+
+.writer div span:nth-child(2) {
+  font-size: 18px;
+  font-weight: 500;
+  color: var(--color-date-text);
+}
+
+.caption img{
+  background-color: var(--color-card);
+  padding: 0.8rem 0.6rem;
+  box-shadow: 1px 1px 2px var(--color-lemon);
+  border-radius: 0.5rem;
+}
+
+.caption img:nth-child(1){
+ margin-right: 0.2rem;
 }
