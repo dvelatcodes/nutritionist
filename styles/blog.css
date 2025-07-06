@@ -48,7 +48,7 @@
   background-color: var(--color-happy);
   border-bottom-left-radius: 0.5rem;
   border-bottom-right-radius: 0.5rem;
-  overflow-x: hidden;
+  overflow: hidden;
 }
 
 .blog-list span {
@@ -72,10 +72,72 @@
 
 .categories {
   width: 1596px;
-  height: fit-content;
+  /* height: 3762px; */
   background-color: var(--bg-light);
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-areas:
+  'apple ball'
+  'cat dog'
+  'egg fat'
+  'got hen'
+  'ink jug'
+  'kettle lamb';
   margin: 5rem auto 7rem auto;
   border-radius: 0.5rem;
 }
+
+
+.cake {
+grid-area: apple;
+}
+
+.dumbellApple {
+grid-area: ball;
+}
+
+.greenPink {
+grid-area: cat;
+}
+
+.dumbellTape {
+grid-area: dog;
+}
+
+.leavePear {
+grid-area: egg;
+}
+
+.egg {
+grid-area: fat;
+}
+
+.shoe {
+grid-area: got;
+}
+
+.pressUp {
+grid-area: hen;
+}
+
+.field {
+grid-area: ink;
+}
+
+.think {
+grid-area: jug;
+}
+
+.vegetable {
+  grid-area: kettle;
+}
+
+.eat {
+  grid-area: lamb;
+}
+
+
+
+/* .cake, .dumbellApple, .greenPink, .dumbellTape, .leavePear, .egg, .shoe, .pressUp, .field, .think, .vegetable, .eat {
+
+} */
+
