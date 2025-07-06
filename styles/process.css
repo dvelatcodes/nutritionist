@@ -106,7 +106,7 @@
 .work p {
   text-align: center;
   width: 85%;
-  margin: 1.2rem auto 8rem auto;
+  margin: 1.2rem auto 13rem auto;
 }
 
 /* process section */
@@ -121,7 +121,7 @@
     "v vi"
     "vii viii"
     "ix x";
-  row-gap: 5rem;
+  row-gap: 10rem;
   column-gap: 2rem;
 }
 
