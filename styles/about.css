@@ -1,127 +1,125 @@
 .hero-about {
-    width: 1596.5px;
-    height: 520px;
-    margin: 5rem auto 12rem auto;
-    display: grid;
-    column-gap: 1.2rem;
-    grid-template-areas: 
-    'a b c c d e'
-    'f g c c h i'
-    ;
+  width: 1596.5px;
+  height: 520px;
+  margin: 5rem auto 12rem auto;
+  display: grid;
+  gap: 0.7rem;
+  grid-template-areas:
+    "a b c c d e"
+    "f g c c h i";
 }
 
 .a {
-    background-image: url('../assets/desktop/images/Rectangle6329.png');
-    grid-area: a;
+  background-image: url("../assets/desktop/images/Rectangle6329.png");
+  grid-area: a;
 }
 
 .b {
-    background-image: url('../assets/desktop/images/Rectangle6329.png');
-    grid-area: b;
+  background-image: url("../assets/desktop/images/Rectangle6329.png");
+  grid-area: b;
 }
 
 .c {
-    background-image: url('../assets/desktop/images/Rectangle6327.png');
-    grid-area: c;
-    width: 518.84px;
-    height: 520px;
-    width: 80%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  background-image: url("../assets/desktop/images/Rectangle6327.png");
+  grid-area: c;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.c img{
-    width: 150px;
-    height: 150px;
+.c img {
+  width: 150px;
+  height: 150px;
 }
 
 .d {
-    background-image: url('../assets/desktop/images/Rectangle6329.png');
-    grid-area: d;
+  background-image: url("../assets/desktop/images/Rectangle6329.png");
+  grid-area: d;
 }
 
 .e {
-    background-image: url('../assets/desktop/images/Rectangle6329.png');
-    grid-area: e;
+  background-image: url("../assets/desktop/images/Rectangle6329.png");
+  grid-area: e;
 }
 
 .f {
-    background-image: url('../assets/desktop/images/Rectangle6329.png');
-    grid-area: f;
+  background-image: url("../assets/desktop/images/Rectangle6329.png");
+  grid-area: f;
 }
 
 .g {
-    background-image: url('../assets/desktop/images/Rectangle6329.png');
-    grid-area: g;
+  background-image: url("../assets/desktop/images/Rectangle6329.png");
+  grid-area: g;
 }
 
 .h {
-    background-image: url('../assets/desktop/images/Rectangle6329.png');
-    grid-area: h;
+  background-image: url("../assets/desktop/images/Rectangle6329.png");
+  grid-area: h;
 }
 
 .i {
-    background-image: url('../assets/desktop/images/Rectangle6329.png');
-    grid-area: i;
+  background-image: url("../assets/desktop/images/Rectangle6329.png");
+  grid-area: i;
 }
 
-.a, .b, .c, .d, .e, .f, .g, .h, .i{
-    background-repeat: no-repeat;
-    background-size: cover;
-    border-radius: 0.5rem;
-}
-
-.a, .b, .d, .e, .f, .g, .h, .i{
-    width: 249.42px;
-    width: 90%;
-    height: 250px;
+.a,
+.b,
+.c,
+.d,
+.e,
+.f,
+.g,
+.h,
+.i {
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 0.5rem;
 }
 
 @media screen and (max-width: 1440px) {
-    .hero-about {
+  .hero-about {
     width: 1279.5px;
     height: 404px;
     gap: 0.5rem;
-}
+  }
 
-.a {
-    background-image: url('../assets/laptop/images/Rectangle6326.png');
-}
+  .a {
+    background-image: url("../assets/laptop/images/Rectangle6326.png");
+  }
 
-.b {
-    background-image: url('../assets/laptop/images/Rectangle6326.png');
-}
+  .b {
+    background-image: url("../assets/laptop/images/Rectangle6326.png");
+  }
 
-.c {
-    background-image: url('../assets/laptop/images/Rectangle6326.png');
-}
+  .c {
+    background-image: url("../assets/laptop/images/Rectangle6326.png");
+  }
 
-.d {
-    background-image: url('../assets/laptop/images/Rectangle6326.png');
-}
+  .d {
+    background-image: url("../assets/laptop/images/Rectangle6326.png");
+  }
 
-.e {
-    background-image: url('../assets/laptop/images/Rectangle6326.png');
-}
+  .e {
+    background-image: url("../assets/laptop/images/Rectangle6326.png");
+  }
 
-.f {
-    background-image: url('../assets/laptop/images/Rectangle6326.png');
-}
+  .f {
+    background-image: url("../assets/laptop/images/Rectangle6326.png");
+  }
 
-.g {
-    background-image: url('../assets/laptop/images/Rectangle6326.png');
-}
+  .g {
+    background-image: url("../assets/laptop/images/Rectangle6326.png");
+  }
 
-.h {
-    background-image: url('../assets/laptop/images/Rectangle6326.png');
-}
+  .h {
+    background-image: url("../assets/laptop/images/Rectangle6326.png");
+  }
 
-.i {
-    background-image: url('../assets/laptop/images/Rectangle6326.png');
-}
+  .i {
+    background-image: url("../assets/laptop/images/Rectangle6326.png");
+  }
 
-/* .a, .b, .d, .e, .f, .g, .h, .i{
+  /* .a, .b, .d, .e, .f, .g, .h, .i{
     width: 203.73px;
     height: 194.23px;
 }
@@ -133,14 +131,24 @@
     width: 390.8;
     height: 300;
 } */
+}
 
+@media screen and (max-width: 1294px) {
+  .hero-about {
+    width: 88vw;
+    height: 138px;
+    margin: 2rem auto 12rem auto;
+  }
 
-
+  .c img {
+    width: 90px;
+    height: 90px;
+  }
 }
 
 @media screen and (max-width: 425px) {
-    .hero-about {
+  .hero-about {
     width: 358.5px;
     height: 138px;
-}
+  }
 }
