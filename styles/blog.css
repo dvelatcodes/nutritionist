@@ -66,3 +66,16 @@
   background-color: var(--color-green-text);
   border-radius: 0.5rem;
 }
+
+
+/* categories section */
+
+.categories {
+  width: 1596px;
+  height: fit-content;
+  background-color: var(--bg-light);
+  display: flex;
+  flex-wrap: wrap;
+  margin: 5rem auto 7rem auto;
+  border-radius: 0.5rem;
+}
