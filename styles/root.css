@@ -126,6 +126,7 @@ footer {
   margin: auto;
   background-color: var(--color-thick-text);
   margin-top: 6rem;
+  padding-top: 3.5rem;
 }
 
 .top {
@@ -134,12 +135,34 @@ footer {
   align-items: center;
   width: 1596px;
   margin: auto;
-  border: 2px solid white;
+}
+
+.go-up {
+  display: flex;
+  align-items: center;
+  column-gap: 1rem;
+}
+
+.go-up span {
+  color: var(--color-white);
+}
+
+.go-up img {
+  padding: 1.2rem;
+  border-radius: 50%;
+  background-color: var(--color-happy);
 }
 
 .bottom{
-  margin-top: 3rem;
   width: 1596px;
+  height: 87px;
+  background-color: var(--color-happy);
+  margin: 2.5rem auto 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2rem 0 2rem;
+  border-radius: 0.5rem;
 }
 
 @media screen and (max-width: 1440px) {
