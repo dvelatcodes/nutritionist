@@ -43,7 +43,8 @@
 
   /* welcome section */
 
-  .welcome, .achievement {
+  .welcome,
+  .achievement {
     width: 1280px;
   }
   .welcome h2 {
@@ -129,6 +130,25 @@
   .inception::after {
     width: 12px;
   }
+
+  /* achievement section */
+  .flower div span,
+  .cap div span,
+  .fork div span,
+  .wallet div span {
+    font-size: 20px;
+  }
+
+  .flower div img,
+  .cap div img,
+  .fork div img,
+  .wallet div img {
+    width: 40px;
+    height: 40px;
+    padding: 0.5rem 0.7rem;
+    background-color: var(--color-lemon);
+    border-radius: 0.3rem;
+  }
 }
 
 @media screen and (max-width: 1294px) {
@@ -139,7 +159,8 @@
   }
 
   .welcome,
-  .story, .achievement {
+  .story,
+  .achievement {
     width: 88vw;
   }
 
@@ -184,6 +205,46 @@
   .celebrating,
   .research {
     padding-left: 1.5rem;
+  }
+
+  /* achievement */
+
+  .achievement h2 {
+    margin-top: 5rem;
+  }
+
+  .achievement p {
+    margin: 1rem auto 2rem auto;
+    width: 85%;
+  }
+
+     .flower,
+  .cap,
+  .fork,
+  .wallet {
+    padding: 3rem 0 2rem 1rem;
+  }
+
+    .flower p,
+  .cap p,
+  .fork p,
+  .wallet p {
+    margin: 0 0 0 0;
+  }
+
+}
+
+@media screen and (max-width: 731px) {
+  .achievement-cards {
+    width: 100%;
+    display: grid;
+    grid-template-areas:
+      "flower"
+      "cap"
+      "fork"
+      "wallet";
+    gap: unset;
+    row-gap: 1rem;
   }
 }
 
@@ -264,20 +325,24 @@
     position: relative;
   }
 
-  .gym::after, .soil::after, .trophy::after, .shake-hands::after {
- content: '';
- position: absolute;
- right: unset;
- bottom: 0;
- height: 10px;
- width: 100%;
- background-color: var(--color-lemon);
- 
-}
+  .gym::after,
+  .soil::after,
+  .trophy::after,
+  .shake-hands::after {
+    content: "";
+    position: absolute;
+    right: unset;
+    bottom: 0;
+    height: 10px;
+    width: 100%;
+    background-color: var(--color-lemon);
+  }
 
-  .recognition::after, .success::after, .inception::after {
- display: none;
-}
+  .recognition::after,
+  .success::after,
+  .inception::after {
+    display: none;
+  }
 
   .grid-story h4 {
     font-size: 20px;
@@ -286,4 +351,21 @@
   .grid-story h6 {
     font-size: 14px;
   }
+
+  /* achievement section */
+  .flower div span,
+  .cap div span,
+  .fork div span,
+  .wallet div span {
+    font-size: 18px;
+  }
+
+   .achievement p {
+    width: 90%;
+  }
+
+   .achievement h2 {
+    margin-top: 5rem;
+  }
+
 }

@@ -449,6 +449,15 @@ p {
     border-radius: 0.3rem;
 }
 
+.flower div span,
+.cap div span,
+.fork div span,
+.wallet div span {
+    font-weight: 600;
+    font-size: 24px;
+    color: var(--color-dark-green);
+}
+
 .achievement-cards p {
     text-align: left;
     margin: unset;
