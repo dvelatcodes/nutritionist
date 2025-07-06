@@ -1,9 +1,9 @@
 .hero-about {
     width: 1596.5px;
     height: 520px;
-    margin: 5rem auto 0 auto;
+    margin: 5rem auto 12rem auto;
     display: grid;
-    gap: 1.2rem;
+    column-gap: 1.2rem;
     grid-template-areas: 
     'a b c c d e'
     'f g c c h i'
@@ -25,6 +25,15 @@
     grid-area: c;
     width: 518.84px;
     height: 520px;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.c img{
+    width: 150px;
+    height: 150px;
 }
 
 .d {
@@ -60,10 +69,12 @@
 .a, .b, .c, .d, .e, .f, .g, .h, .i{
     background-repeat: no-repeat;
     background-size: cover;
+    border-radius: 0.5rem;
 }
 
 .a, .b, .d, .e, .f, .g, .h, .i{
     width: 249.42px;
+    width: 90%;
     height: 250px;
 }
 
@@ -71,6 +82,7 @@
     .hero-about {
     width: 1279.5px;
     height: 404px;
+    gap: 0.5rem;
 }
 
 .a {
@@ -108,6 +120,21 @@
 .i {
     background-image: url('../assets/laptop/images/Rectangle6326.png');
 }
+
+/* .a, .b, .d, .e, .f, .g, .h, .i{
+    width: 203.73px;
+    height: 194.23px;
+}
+
+.c {
+    width: 423.8;
+    height: 404;
+
+    width: 390.8;
+    height: 300;
+} */
+
+
 
 }
 
