@@ -13,22 +13,24 @@
 }
 
 .blog-hero::before {
-    content: '';
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: 0;
-    margin: auto;
-    background-image: url('../assets/laptop/images/star.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 50%;
-    height: 40%;
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  margin: auto;
+  background-image: url("../assets/laptop/images/star.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 50%;
+  height: 40%;
 }
 
-.blog-hero img, .blog-hero p, .blog-hero h2 {
-    position: relative;
-    z-index: 5;
+.blog-hero img,
+.blog-hero p,
+.blog-hero h2 {
+  position: relative;
+  z-index: 5;
 }
 
 .blog-hero p {
