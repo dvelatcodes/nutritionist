@@ -1,0 +1,119 @@
+.hero-about {
+    width: 1596.5px;
+    height: 520px;
+    margin: 5rem auto 0 auto;
+    display: grid;
+    gap: 1.2rem;
+    grid-template-areas: 
+    'a b c c d e'
+    'f g c c h i'
+    ;
+}
+
+.a {
+    background-image: url('../assets/desktop/images/Rectangle6329.png');
+    grid-area: a;
+}
+
+.b {
+    background-image: url('../assets/desktop/images/Rectangle6329.png');
+    grid-area: b;
+}
+
+.c {
+    background-image: url('../assets/desktop/images/Rectangle6327.png');
+    grid-area: c;
+    width: 518.84px;
+    height: 520px;
+}
+
+.d {
+    background-image: url('../assets/desktop/images/Rectangle6329.png');
+    grid-area: d;
+}
+
+.e {
+    background-image: url('../assets/desktop/images/Rectangle6329.png');
+    grid-area: e;
+}
+
+.f {
+    background-image: url('../assets/desktop/images/Rectangle6329.png');
+    grid-area: f;
+}
+
+.g {
+    background-image: url('../assets/desktop/images/Rectangle6329.png');
+    grid-area: g;
+}
+
+.h {
+    background-image: url('../assets/desktop/images/Rectangle6329.png');
+    grid-area: h;
+}
+
+.i {
+    background-image: url('../assets/desktop/images/Rectangle6329.png');
+    grid-area: i;
+}
+
+.a, .b, .c, .d, .e, .f, .g, .h, .i{
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.a, .b, .d, .e, .f, .g, .h, .i{
+    width: 249.42px;
+    height: 250px;
+}
+
+@media screen and (max-width: 1440px) {
+    .hero-about {
+    width: 1279.5px;
+    height: 404px;
+}
+
+.a {
+    background-image: url('../assets/laptop/images/Rectangle6326.png');
+}
+
+.b {
+    background-image: url('../assets/laptop/images/Rectangle6326.png');
+}
+
+.c {
+    background-image: url('../assets/laptop/images/Rectangle6326.png');
+}
+
+.d {
+    background-image: url('../assets/laptop/images/Rectangle6326.png');
+}
+
+.e {
+    background-image: url('../assets/laptop/images/Rectangle6326.png');
+}
+
+.f {
+    background-image: url('../assets/laptop/images/Rectangle6326.png');
+}
+
+.g {
+    background-image: url('../assets/laptop/images/Rectangle6326.png');
+}
+
+.h {
+    background-image: url('../assets/laptop/images/Rectangle6326.png');
+}
+
+.i {
+    background-image: url('../assets/laptop/images/Rectangle6326.png');
+}
+
+}
+
+@media screen and (max-width: 425px) {
+    .hero-about {
+    width: 358.5px;
+    height: 138px;
+}
+}
