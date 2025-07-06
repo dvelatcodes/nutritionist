@@ -261,7 +261,23 @@
   .soil,
   .shake-hands {
     height: 206px;
+    position: relative;
   }
+
+  .gym::after, .soil::after, .trophy::after, .shake-hands::after {
+ content: '';
+ position: absolute;
+ right: unset;
+ bottom: 0;
+ height: 10px;
+ width: 100%;
+ background-color: var(--color-lemon);
+ 
+}
+
+  .recognition::after, .success::after, .inception::after {
+ display: none;
+}
 
   .grid-story h4 {
     font-size: 20px;
