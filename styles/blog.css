@@ -84,6 +84,8 @@
   margin: 5rem auto 7rem auto;
   border-radius: 0.5rem;
   padding: 3.5rem 1.5rem 2rem 2rem;
+  column-gap: 1.5rem;
+  row-gap: 5rem;
 }
 
 .cake {
@@ -132,22 +134,41 @@
 
 .eat {
   grid-area: lamb;
+  /* position: relative; */
 }
 
 .loss1 {
   font-size: 24px;
   position: relative;
-  margin: 0;
+  margin: 0 0 2rem 0;
   text-align: left;
 }
 
 .loss2 {
   font-size: 24px;
-  margin: 0;
+  margin: 0 0 1rem 0;
   text-align: left;
 }
 
+.read-more {
+  border-radius: 0.5rem;
+  border: none;
+  padding: 0.9rem 1rem;
+  background-color: var(--color-lemon);
+  cursor: pointer;
+}
 
+.read-more:hover {
+ background-color: var(--color-thick-lemon);
+}
+
+
+
+.cake section, .dumbellApple section, .greenPink section, .dumbellTape section, .leavePear section, .egg section, .shoe section, .pressUp section, .field section, .think section, .vegetable section, .eat section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
 
 /* .cake, .dumbellApple, .greenPink, .dumbellTape, .leavePear, .egg, .shoe, .pressUp, .field, .think, .vegetable, .eat {
 
