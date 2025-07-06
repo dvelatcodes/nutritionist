@@ -290,6 +290,18 @@ p {
   font-size: 28px;
   font-weight: 600;
   color: var(--color-thick-text);
+  position: relative;
+}
+
+.grid-story h4::after {
+content: '';
+width: 100%;
+height: 4px;
+background-color: var(--color-lemon);
+position: absolute;
+bottom: -0.5rem;
+left: 0;
+right: 0;
 }
 
 .grid-story h6 {
@@ -297,7 +309,6 @@ p {
   font-weight: 600;
   color: var(--color-p-text);
 }
-/* left */
 
 .inspiring,
 .growth,
