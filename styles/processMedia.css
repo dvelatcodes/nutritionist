@@ -6,7 +6,7 @@
 
   /* begin section */
 
-  .begin {
+  .begin, .process-cards {
     width: 1280px;
   }
 
@@ -20,7 +20,7 @@
 
    /* begin section */
 
-  .begin {
+  .begin, .process-cards {
     width: 88vw;
   }
 

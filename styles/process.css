@@ -39,74 +39,177 @@
   margin-top: 0.3rem;
 }
 
-
 /* begin section */
 
 .begin {
-    width: 1596px;
-    border-radius: 0.5rem;
-    background-color: var(--bg-light);
-    margin: 7rem auto 0 auto;
-    padding: 3rem 0 3rem 0;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    position: relative;
-    z-index: 6;
+  width: 1596px;
+  border-radius: 0.5rem;
+  background-color: var(--bg-light);
+  margin: 7rem auto 0 auto;
+  padding: 3rem 0 3rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  position: relative;
+  z-index: 6;
 }
 
 .begin div {
-    width: 70%;
+  width: 70%;
 }
 
 .begin::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    background-image: url('../assets/general-images/AbstractDesign.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100px;
-    height: 90px;
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-image: url("../assets/general-images/AbstractDesign.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100px;
+  height: 90px;
 }
 
 .begin::after {
-    content: '';
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    background-image: url('../assets/general-images/Petals.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100px;
-    height: 90px;
+  content: "";
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background-image: url("../assets/general-images/Petals.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100px;
+  height: 90px;
 }
 
-.begin div p{
-    text-align: left;
-    margin: 1rem 0 0 0;
-    position: relative;
-    z-index: 5;
+.begin div p {
+  text-align: left;
+  margin: 1rem 0 0 0;
+  position: relative;
+  z-index: 5;
 }
 
-.begin div h2{
-    margin: 0;
-    text-align: left;
-    position: relative;
-    z-index: 5;
+.begin div h2 {
+  margin: 0;
+  text-align: left;
+  position: relative;
+  z-index: 5;
 }
 
 /* work section */
 
 .work {
-  margin: 5rem;
+  margin: 5rem auto 5rem 0;
 }
 
 .work p {
   text-align: center;
   width: 85%;
-  margin: 1.2rem 0;
+  margin: 1.2rem auto 8rem auto;
 }
 
+/* process section */
+
+.process-cards {
+  width: 1596px;
+  margin: 0 auto 0 auto;
+  display: grid;
+  grid-template-areas:
+    "i ii"
+    "iii iv"
+    "v vi"
+    "vii viii"
+    "ix x";
+  row-gap: 5rem;
+  column-gap: 2rem;
+}
+
+.flag {
+  grid-area: i;
+  background-color: var(--bg-light);
+  border-radius: 0.5rem;
+}
+
+.basket {
+  grid-area: ii;
+  background-color: var(--bg-light);
+  border-radius: 0.5rem;
+}
+
+.wallet {
+  grid-area: iii;
+  background-color: var(--bg-light);
+  border-radius: 0.5rem;
+}
+
+.fork {
+  grid-area: iv;
+  background-color: var(--bg-light);
+  border-radius: 0.5rem;
+}
+
+.headset {
+  grid-area: v;
+  background-color: var(--bg-light);
+  border-radius: 0.5rem;
+}
+
+.flash {
+  grid-area: vi;
+  background-color: var(--bg-light);
+  border-radius: 0.5rem;
+}
+
+.pin {
+  grid-area: vii;
+  background-color: var(--bg-light);
+  border-radius: 0.5rem;
+}
+
+.cap {
+  grid-area: viii;
+  background-color: var(--bg-light);
+  border-radius: 0.5rem;
+}
+
+.backpack {
+  grid-area: ix;
+  background-color: var(--bg-light);
+  border-radius: 0.5rem;
+}
+
+.cup {
+  grid-area: x;
+  background-color: var(--bg-light);
+  border-radius: 0.5rem;
+}
+
+
+.flag, .basket, .wallet, .fork, .headset, .flash, .pin, .cap, .backpack, .cup {
+  position: relative;
+  padding: 2rem 0 0 3rem;
+}
+
+.flag p, .basket p, .wallet p, .fork p, .headset p, .flash p, .pin p, .cap p, .backpack p, .cup p {
+  margin-top: 2rem;
+}
+
+.flag img, .basket img, .wallet img, .fork img, .headset img, .flash img, .pin img, .cap img, .backpack img, .cup img {
+  padding: 0.5rem 0.8rem;
+  border-radius: 0.5rem;
+  background-color: var(--color-lemon);
+  width: 40px;
+  height: 40px;
+}
+
+.flag div, .basket div, .wallet div, .fork div, .headset div, .flash div, .pin div, .cap div, .backpack div, .cup div {
+  display: flex;
+  align-items: center;
+  column-gap: 0.7rem;
+}
+
+
+/* .flag, .basket, .wallet, .fork, .headset, .flash, .pin, .cap, .backpack, .cup {
+
+} */
