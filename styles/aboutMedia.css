@@ -43,7 +43,7 @@
 
   /* welcome section */
 
-  .welcome {
+  .welcome, .achievement {
     width: 1280px;
   }
   .welcome h2 {
@@ -139,7 +139,7 @@
   }
 
   .welcome,
-  .story {
+  .story, .achievement {
     width: 88vw;
   }
 

@@ -235,23 +235,31 @@ p {
   border-bottom-right-radius: 0.5rem;
 }
 
-.gym::after, .soil::after, .volunteer::after, .balloon::after, .two-apples::after {
- content: '';
- position: absolute;
- right: 0;
- height: 100%;
- width: 18px;
- background-color: var(--color-lemon);
+.gym::after,
+.soil::after,
+.volunteer::after,
+.balloon::after,
+.two-apples::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  height: 100%;
+  width: 18px;
+  background-color: var(--color-lemon);
 }
 
-.recognition::after, .success::after, .innovate::after, .expand::after, .inception::after {
- content: '';
- position: absolute;
- top: 0;
- right: 0;
- height: 100%;
- width: 18px;
- background-color: var(--color-lemon);
+.recognition::after,
+.success::after,
+.innovate::after,
+.expand::after,
+.inception::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: 18px;
+  background-color: var(--color-lemon);
 }
 
 .gym,
@@ -294,14 +302,14 @@ p {
 }
 
 .grid-story h4::after {
-content: '';
-width: 100%;
-height: 4px;
-background-color: var(--color-lemon);
-position: absolute;
-bottom: -0.5rem;
-left: 0;
-right: 0;
+  content: "";
+  width: 100%;
+  height: 4px;
+  background-color: var(--color-lemon);
+  position: absolute;
+  bottom: -0.5rem;
+  left: 0;
+  right: 0;
 }
 
 .grid-story h6 {
@@ -341,7 +349,8 @@ right: 0;
 .recognition,
 .success,
 .expand,
-.inception, .innovate {
+.inception,
+.innovate {
   align-items: end;
   padding-right: 5rem;
 }
@@ -363,4 +372,84 @@ right: 0;
 .inception h6 {
   margin: unset;
   text-align: end;
+}
+
+
+/* achievement section */
+
+.achievement {
+  height: fit-content;
+  width: 1597px;
+  margin: auto;
+}
+
+.achievement h2 {
+  margin-top: 7rem;
+}
+
+.achievement p {
+  margin: 3rem auto 5rem auto;
+  width: 85%;
+}
+
+.achievement-cards {
+  width: 100%;
+  display: grid;
+  grid-template-areas:
+    "flower cap"
+    "fork wallet";
+  gap: 1rem;
+}
+
+.flower {
+  grid-area: flower;
+}
+
+.cap {
+  grid-area: cap;
+}
+
+.fork {
+  grid-area: fork;
+}
+
+.wallet {
+  grid-area: wallet;
+}
+
+.flower,
+.cap,
+.fork,
+.wallet {
+  background-color: var(--bg-light);
+  border-radius: 0.5rem;
+  padding: 3rem 0 4rem 3rem;
+  display: flex;
+  flex-direction: column;
+  row-gap: 1.5rem;
+}
+
+.flower div,
+.cap div,
+.fork div,
+.wallet div {
+    display: flex;
+    align-items: center;
+    column-gap: 0.6rem;
+}
+
+.flower div img,
+.cap div img,
+.fork div img,
+.wallet div img {
+    width: 40px;
+    height: 40px;
+    padding: 0.5rem 0.7rem;
+    background-color: var(--color-lemon);
+    border-radius: 0.3rem;
+}
+
+.achievement-cards p {
+    text-align: left;
+    margin: unset;
 }
