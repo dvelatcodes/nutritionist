@@ -111,12 +111,11 @@
 
   .grid-story h4 {
     font-size: 24px;
-}
+  }
 
-.grid-story h6 {
+  .grid-story h6 {
     font-size: 16px;
-}
-
+  }
 }
 
 @media screen and (max-width: 1294px) {
@@ -134,6 +133,44 @@
   .c img {
     width: 90px;
     height: 90px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .recognition,
+  .success,
+  .expand,
+  .inception,
+  .innovate {
+    padding-right: 3rem;
+    padding-top: 2rem;
+  }
+
+  .inspiring,
+  .growth,
+  .support,
+  .celebrating,
+  .research {
+    padding-left: 3rem;
+    padding-top: 2rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .recognition,
+  .success,
+  .expand,
+  .inception,
+  .innovate {
+    padding-right: 1.5rem;
+  }
+
+  .inspiring,
+  .growth,
+  .support,
+  .celebrating,
+  .research {
+    padding-left: 1.5rem;
   }
 }
 
@@ -172,6 +209,11 @@
     background-image: url("../assets/mobile/images/gym.png");
   }
 
+  .inspiring, .recognition, .growth, .success  {
+    padding-bottom: 1rem;
+  }
+
+
   .trophy {
     background-image: url("../assets/mobile/images/trophy.png");
   }
@@ -189,7 +231,7 @@
   .balloon,
   .goal-post,
   .two-apples,
-  .writing {
+  .writing, .inception, .research, .expand, .celebrating, .innovate, .support {
     display: none;
   }
 
@@ -200,11 +242,11 @@
     height: 206px;
   }
 
-    .grid-story h4 {
+  .grid-story h4 {
     font-size: 20px;
-}
+  }
 
-.grid-story h6 {
+  .grid-story h6 {
     font-size: 14px;
-}
+  }
 }
