@@ -133,7 +133,7 @@ footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 1596px;
+  width: 93%;
   margin: auto;
 }
 
@@ -160,7 +160,7 @@ footer {
 }
 
 .bottom{
-  width: 1596px;
+  width: 93%;
   height: 87px;
   background-color: var(--color-happy);
   margin: 2.5rem auto 0 auto;
