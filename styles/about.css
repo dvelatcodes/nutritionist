@@ -104,6 +104,30 @@
 
 .story {
     margin-top: 6rem;
+    width: 1596px;
+}
+
+.story p {
+    margin: 2rem auto 3rem auto;
+    width: 85%;
+}
+
+.grid-story {
+    width: 100%;
+    height: fit-content;
+    display: grid;
+    grid-template-areas: 
+    'gym inspiring'
+    'recognition trophy'
+    'soil growth'
+    'success shake-hands'
+    'volunteer support'
+    'innovate meeting'
+    'balloon celebrating'
+    'expand goal-post'
+    'two-apples research'
+    'inception writing'
+    ;
 }
 
 

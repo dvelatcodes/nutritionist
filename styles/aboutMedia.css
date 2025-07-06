@@ -49,6 +49,12 @@
   .welcome h2 {
     font-size: 38px;
   }
+
+  /* story section */
+  .story {
+    margin-top: 4rem;
+    width: 1280px;
+  }
 }
 
 @media screen and (max-width: 1294px) {
@@ -58,7 +64,8 @@
     margin: 2rem auto 12rem auto;
   }
 
-  .welcome {
+  .welcome,
+  .story {
     width: 88vw;
   }
 
