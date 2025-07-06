@@ -70,7 +70,7 @@ header {
   z-index: 100;
 }
 
-.nav-links {
+.nav-links, .nav-link {
   width: fit-content;
   height: fit-content;
   display: flex;
@@ -86,7 +86,7 @@ header {
   color: var(--color-light-green);
 }
 
-.nav-links li:hover .page {
+.nav-links li:hover .page, .nav-link li:hover .page {
   color: var(--color-lemon);
 }
 
@@ -135,6 +135,10 @@ footer {
   align-items: center;
   width: 93%;
   margin: auto;
+}
+
+.ghost {
+  display: none;
 }
 
 #h-page {
@@ -202,13 +206,13 @@ footer {
     height: 299px;
   }
 
-  .top {
-    width: 630px;
+  .top, .bottom {
+    width: 87%;
   }
 }
 
 @media screen and (max-width: 1024px) {
-  .nav-links {
+  .nav-links, .nav-link {
     width: fit-content;
     height: fit-content;
     background-color: transparent;
@@ -220,6 +224,57 @@ footer {
   .page {
     font-size: 1rem;
   }
+
+  .top {
+    margin: unset;
+    width: 100%;
+  }
+
+  .bottom {
+  margin: 2.5rem 0 0 0;
+    width: 100%;
+    padding: 0 0.5rem 0 0.5rem;
+  }
+}
+
+@media screen and (max-width: 1001px) {
+  footer {
+    padding: 1rem 0 3rem 0;
+    height: fit-content;
+  }
+  .top{
+    flex-wrap: wrap;
+    padding: 0 1.5rem 0 1.5rem;
+  }
+  .bottom{
+    flex-wrap: wrap;
+    justify-content: center;
+    row-gap: 1.5rem;
+    height: fit-content;
+    padding: 1rem 0;
+  }
+  .contact-link{
+    width: 100%;
+    height: fit-content;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    row-gap: 1rem;
+  }
+.nav-link {
+  display: none;
+}
+
+.ghost {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 0.6rem;
+}
+
+.ghost li a {
+font-size: 14px;
+}
+
 }
 
 @media screen and (max-width: 862px) {
@@ -263,7 +318,7 @@ footer {
     color: var(--color-light-green);
   }
 
-  .nav-links li:hover a {
+  .nav-links li:hover a, .nav-link li:hover a {
     color: var(--color-lemon);
   }
 
