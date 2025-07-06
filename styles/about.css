@@ -462,3 +462,37 @@ p {
     text-align: left;
     margin: unset;
 }
+
+
+/* proud section */
+
+.proud {
+    width: 1596px;
+    border-radius: 0.5rem;
+    background-color: var(--bg-light);
+    margin: 7rem auto 0 auto;
+    padding: 3rem 0 3rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around !important;
+}
+
+.proud div {
+    width: 50%;
+    background-color: pink;
+}
+
+.proud div p{
+    width: 50%;
+    /* text-align: left; */
+    margin: 0;
+}
+
+.proud div h2{
+    margin: 0;
+    text-align: left;
+}
+
+.proud button{
+    display: block;
+}
