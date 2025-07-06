@@ -195,6 +195,11 @@
   font-size: 24px;
   margin: 0 0 1rem 0;
   text-align: left;
+  width: 100%;
+}
+
+.loss2 + p {
+  width: 100%;
 }
 
 .read-more {
@@ -221,9 +226,26 @@
 .think section,
 .vegetable section,
 .eat section {
+  width: 100%;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
+}
+
+.cake section div,
+.dumbellApple section div,
+.greenPink section div,
+.dumbellTape section div,
+.leavePear section div,
+.egg section div,
+.shoe section div,
+.pressUp section div,
+.field section div,
+.think section div,
+.vegetable section div,
+.eat section div {
+ width: 70%;
+ margin: 2rem 0 2.4rem 0;
 }
 
 .cake > div,
