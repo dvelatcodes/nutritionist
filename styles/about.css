@@ -77,57 +77,169 @@
 }
 
 .welcome {
-    width: 1596px;
-    height: fit-content;
-    border-radius: 0.5rem;
-    background-color: var(--bg-light);
-    margin: auto;
-    overflow: hidden;
-    padding-bottom: 4rem;
+  width: 1596px;
+  height: fit-content;
+  border-radius: 0.5rem;
+  background-color: var(--bg-light);
+  margin: auto;
+  overflow: hidden;
+  padding-bottom: 4rem;
 }
 
-.welcome h2, p {
-    text-align: center;
+.welcome h2,
+p {
+  text-align: center;
 }
 
 .welcome p {
-    width: 85%;
-    margin: auto;
-    line-height: 150%;
+  width: 85%;
+  margin: auto;
+  line-height: 150%;
 }
 
 .welcome h2 {
-    font-size: 48px;
-    font-weight: 600;
-    margin: 5rem 0 3rem 0;
+  font-size: 48px;
+  font-weight: 600;
+  margin: 5rem 0 3rem 0;
 }
 
 .story {
-    margin-top: 6rem;
-    width: 1596px;
+  margin: 6rem auto 0 auto;
+  width: 1596px;
+  height: fit-content;
 }
 
 .story p {
-    margin: 2rem auto 3rem auto;
-    width: 85%;
+  margin: 2rem auto 3rem auto;
+  width: 85%;
 }
 
 .grid-story {
-    width: 100%;
-    height: fit-content;
-    display: grid;
-    grid-template-areas: 
-    'gym inspiring'
-    'recognition trophy'
-    'soil growth'
-    'success shake-hands'
-    'volunteer support'
-    'innovate meeting'
-    'balloon celebrating'
-    'expand goal-post'
-    'two-apples research'
-    'inception writing'
-    ;
+  width: 100%;
+  height: fit-content;
+  display: grid;
+  grid-template-areas:
+    "gym inspiring"
+    "recognition trophy"
+    "soil growth"
+    "success shake-hands"
+    "volunteer support"
+    "innovate meeting"
+    "balloon celebrating"
+    "expand goal-post"
+    "two-apples research"
+    "inception writing";
+  margin: auto;
+  /* background-color: blue; */
 }
 
 
+.gym {
+  grid-area: gym;
+  background-image: url('../assets/desktop/images/gym.png');
+  border-top-left-radius: 0.5rem;
+}
+
+.inspiring {
+  grid-area: inspiring;
+  background-color: var(--bg-light);
+  border-top-right-radius: 0.5rem;
+}
+
+.recognition {
+  grid-area: recognition;
+  background-color: var(--bg-light);
+}
+
+.trophy {
+  grid-area: trophy;
+  background-image: url('../assets/desktop/images/trophy.png');
+}
+
+.soil {
+  grid-area: soil;
+  background-image: url('../assets/desktop/images/soil.png');
+}
+
+.growth {
+  grid-area: growth;
+  background-color: var(--bg-light);
+}
+
+.success {
+  grid-area: success;
+  background-color: var(--bg-light);
+}
+
+.shake-hands {
+  grid-area: shake-hands;
+  background-image: url('../assets/desktop/images/shake-hands.png');
+}
+
+.volunteer {
+  grid-area: volunteer;
+  background-image: url('../assets/desktop/images/volunteer.png');
+}
+
+.support {
+  grid-area: support;
+  background-color: var(--bg-light);
+}
+
+.innovate {
+  grid-area: innovate;
+  background-color: var(--bg-light);
+}
+
+.meeting {
+  grid-area: meeting;
+  background-image: url('../assets/desktop/images/meeting.png');
+}
+
+.balloon {
+  grid-area: balloon;
+  background-image: url('../assets/desktop/images/balloon.png');
+}
+
+.celebrating {
+  grid-area: celebrating;
+  background-color: var(--bg-light);
+}
+
+.expand {
+  grid-area: expand;
+  background-color: var(--bg-light);
+}
+
+.goal-post {
+  grid-area: goal-post;
+  background-image: url('../assets/desktop/images/goal-post.png');
+}
+
+.two-apples {
+  grid-area: two-apples;
+  background-image: url('../assets/desktop/images/two-apples.png');
+}
+
+.research {
+  grid-area: research;
+  background-color: var(--bg-light);
+}
+
+.inception {
+  grid-area: inception;
+  background-color: var(--bg-light);
+  border-bottom-left-radius: 0.5rem;
+}
+
+.writing {
+  grid-area: writing;
+  background-image: url('../assets/desktop/images/writing.png');
+  border-bottom-right-radius: 0.5rem;
+}
+
+.gym, .trophy, .soil, .shake-hands, .volunteer, .meeting, .balloon, .goal-post, .two-apples, .writing {
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 530px;
+}
