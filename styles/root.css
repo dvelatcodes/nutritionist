@@ -128,6 +128,20 @@ footer {
   margin-top: 6rem;
 }
 
+.top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1596px;
+  margin: auto;
+  border: 2px solid white;
+}
+
+.bottom{
+  margin-top: 3rem;
+  width: 1596px;
+}
+
 @media screen and (max-width: 1440px) {
   p {
     font-size: 16px;
@@ -137,6 +151,10 @@ footer {
     width: 100vw;
     max-width: 1440px;
     height: 299px;
+  }
+
+  .top {
+    width: 630px;
   }
 }
 

@@ -2,7 +2,7 @@ let hamburger = document.querySelector('.hamburger');
 let navLinks = document.querySelector('.navigation-container');
 let hamChecker = false;
 let pages = document.querySelectorAll('.page');
-let header = document.querySelector('header');
+// let header = document.querySelector('header');
 
 
 
