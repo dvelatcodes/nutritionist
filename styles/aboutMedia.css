@@ -116,6 +116,19 @@
   .grid-story h6 {
     font-size: 16px;
   }
+
+  .gym::after,
+  .soil::after,
+  .volunteer::after,
+  .balloon::after,
+  .two-apples::after,
+  .recognition::after,
+  .success::after,
+  .innovate::after,
+  .expand::after,
+  .inception::after {
+    width: 12px;
+  }
 }
 
 @media screen and (max-width: 1294px) {
@@ -209,10 +222,12 @@
     background-image: url("../assets/mobile/images/gym.png");
   }
 
-  .inspiring, .recognition, .growth, .success  {
+  .inspiring,
+  .recognition,
+  .growth,
+  .success {
     padding-bottom: 1rem;
   }
-
 
   .trophy {
     background-image: url("../assets/mobile/images/trophy.png");
@@ -231,7 +246,13 @@
   .balloon,
   .goal-post,
   .two-apples,
-  .writing, .inception, .research, .expand, .celebrating, .innovate, .support {
+  .writing,
+  .inception,
+  .research,
+  .expand,
+  .celebrating,
+  .innovate,
+  .support {
     display: none;
   }
 

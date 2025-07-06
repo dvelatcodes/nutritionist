@@ -135,6 +135,7 @@ p {
   grid-area: gym;
   background-image: url("../assets/desktop/images/gym.png");
   border-top-left-radius: 0.5rem;
+  position: relative;
 }
 
 .inspiring {
@@ -144,6 +145,7 @@ p {
 
 .recognition {
   grid-area: recognition;
+  position: relative;
 }
 
 .trophy {
@@ -154,6 +156,7 @@ p {
 .soil {
   grid-area: soil;
   background-image: url("../assets/desktop/images/soil.png");
+  position: relative;
 }
 
 .growth {
@@ -162,6 +165,7 @@ p {
 
 .success {
   grid-area: success;
+  position: relative;
 }
 
 .shake-hands {
@@ -172,6 +176,7 @@ p {
 .volunteer {
   grid-area: volunteer;
   background-image: url("../assets/desktop/images/volunteer.png");
+  position: relative;
 }
 
 .support {
@@ -180,6 +185,7 @@ p {
 
 .innovate {
   grid-area: innovate;
+  position: relative;
 }
 
 .meeting {
@@ -190,6 +196,7 @@ p {
 .balloon {
   grid-area: balloon;
   background-image: url("../assets/desktop/images/balloon.png");
+  position: relative;
 }
 
 .celebrating {
@@ -198,6 +205,7 @@ p {
 
 .expand {
   grid-area: expand;
+  position: relative;
 }
 
 .goal-post {
@@ -208,6 +216,7 @@ p {
 .two-apples {
   grid-area: two-apples;
   background-image: url("../assets/desktop/images/two-apples.png");
+  position: relative;
 }
 
 .research {
@@ -217,12 +226,32 @@ p {
 .inception {
   grid-area: inception;
   border-bottom-left-radius: 0.5rem;
+  position: relative;
 }
 
 .writing {
   grid-area: writing;
   background-image: url("../assets/desktop/images/writing.png");
   border-bottom-right-radius: 0.5rem;
+}
+
+.gym::after, .soil::after, .volunteer::after, .balloon::after, .two-apples::after {
+ content: '';
+ position: absolute;
+ right: 0;
+ height: 100%;
+ width: 18px;
+ background-color: var(--color-lemon);
+}
+
+.recognition::after, .success::after, .innovate::after, .expand::after, .inception::after {
+ content: '';
+ position: absolute;
+ top: 0;
+ right: 0;
+ height: 100%;
+ width: 18px;
+ background-color: var(--color-lemon);
 }
 
 .gym,
