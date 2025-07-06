@@ -23,7 +23,40 @@
   .begin, .process-cards {
     width: 88vw;
   }
+}
 
+@media screen and (max-width:768px) {
+  .process-cards {
+  grid-template-areas:
+    "i"
+    "ii"
+    "iii"
+    "iv"
+    "v"
+    "vi"
+    "vii"
+    "viii"
+    "ix"
+    "x";
+  row-gap: 6rem;
+  column-gap: 2rem;
+}
+
+.begin {
+  margin: 2rem auto 0 auto;
+}
+
+.work {
+  margin: 5rem auto 0 0;
+}
+
+.work p {
+  margin: 1.2rem auto 10rem auto;
+}
+
+.flag, .basket, .wallet, .fork, .headset, .flash, .pin, .cap, .backpack, .cup {
+  height: 70%;
+}
 }
 
 @media screen and (max-width: 425px) {
@@ -50,5 +83,13 @@
   .begin div p {
     text-align: center;
   }
+
+  .flag, .basket, .wallet, .fork, .headset, .flash, .pin, .cap, .backpack, .cup {
+  padding: 2rem 0 0 1rem;
+  }
+
+  .flag p, .basket p, .wallet p, .fork p, .headset p, .flash p, .pin p, .cap p, .backpack p, .cup p {
+  width: 95%;
+}
   
 }
