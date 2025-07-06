@@ -201,6 +201,19 @@ footer {
   color: var(--color-white);
 }
 
+.cta-button {
+  width: 154px;
+  height: 63px;
+  border-radius: 0.5rem;
+  background-color: var(--color-lemon);
+  border: none;
+  cursor: pointer;
+}
+
+.cta-button:hover {
+  background-color: var(--color-thick-lemon);
+}
+
 @media screen and (max-width: 1440px) {
   p {
     font-size: 16px;
@@ -219,6 +232,11 @@ footer {
   .top,
   .bottom {
     width: 87%;
+  }
+
+  .cta-button {
+    width: 123px;
+    height: 49px;
   }
 }
 
@@ -374,5 +392,9 @@ footer {
   .contact-link a {
     column-gap: unset;
     width: 85%;
+  }
+
+  .cta-button {
+    width: 278px;
   }
 }
