@@ -67,7 +67,6 @@
   border-radius: 0.5rem;
 }
 
-
 /* categories section */
 
 .categories {
@@ -76,55 +75,55 @@
   background-color: var(--bg-light);
   display: grid;
   grid-template-areas:
-  'apple ball'
-  'cat dog'
-  'egg fat'
-  'got hen'
-  'ink jug'
-  'kettle lamb';
+    "apple ball"
+    "cat dog"
+    "egg fat"
+    "got hen"
+    "ink jug"
+    "kettle lamb";
   margin: 5rem auto 7rem auto;
   border-radius: 0.5rem;
+  padding: 3.5rem 1.5rem 2rem 2rem;
 }
 
-
 .cake {
-grid-area: apple;
+  grid-area: apple;
 }
 
 .dumbellApple {
-grid-area: ball;
+  grid-area: ball;
 }
 
 .greenPink {
-grid-area: cat;
+  grid-area: cat;
 }
 
 .dumbellTape {
-grid-area: dog;
+  grid-area: dog;
 }
 
 .leavePear {
-grid-area: egg;
+  grid-area: egg;
 }
 
 .egg {
-grid-area: fat;
+  grid-area: fat;
 }
 
 .shoe {
-grid-area: got;
+  grid-area: got;
 }
 
 .pressUp {
-grid-area: hen;
+  grid-area: hen;
 }
 
 .field {
-grid-area: ink;
+  grid-area: ink;
 }
 
 .think {
-grid-area: jug;
+  grid-area: jug;
 }
 
 .vegetable {
@@ -135,9 +134,21 @@ grid-area: jug;
   grid-area: lamb;
 }
 
+.loss1 {
+  font-size: 24px;
+  position: relative;
+  margin: 0;
+  text-align: left;
+}
+
+.loss2 {
+  font-size: 24px;
+  margin: 0;
+  text-align: left;
+}
+
 
 
 /* .cake, .dumbellApple, .greenPink, .dumbellTape, .leavePear, .egg, .shoe, .pressUp, .field, .think, .vegetable, .eat {
 
 } */
-

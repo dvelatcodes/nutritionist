@@ -11,10 +11,19 @@
   .blog-list span {
     font-size: 16px;
   }
+
+  .loss1 {
+    font-size: 22px;
+  }
+
+  .loss2 {
+    font-size: 20px;
+  }
 }
 
 @media screen and (max-width: 1294px) {
-  .blog-hero, .categories {
+  .blog-hero,
+  .categories {
     width: 88vw;
     height: fit-content;
   }
@@ -41,5 +50,13 @@
 
   .blog-list span {
     font-size: 14px;
+  }
+
+  .loss1 {
+    font-size: 20px;
+  }
+
+  .loss1 {
+    font-size: 18px;
   }
 }
