@@ -71,7 +71,6 @@
 
 .categories {
   width: 1596px;
-  /* height: 3762px; */
   background-color: var(--bg-light);
   display: grid;
   grid-template-areas:
@@ -83,9 +82,6 @@
     "kettle lamb";
   margin: 5rem auto 7rem auto;
   border-radius: 0.5rem;
-  /* padding: 0 1.5rem 0 2rem; */
-  /* column-gap: 1.5rem; */
-  /* row-gap: 5rem; */
 }
 
 .cake {
@@ -184,6 +180,25 @@
   background-image: url("../assets/desktop/images/eat.png");
 }
 
+.cake > div,
+.dumbellApple > div,
+.greenPink > div,
+.dumbellTape > div,
+.leavePear > div,
+.egg > div,
+.shoe > div,
+.pressUp > div,
+.field > div,
+.think > div,
+.vegetable > div,
+.eat > div {
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 531px;
+  height: 228px;
+  transform: translateX(10rem);
+}
+
 .loss1 {
   font-size: 24px;
   position: relative;
@@ -262,24 +277,6 @@
  width: 70%;
 }
 
-.cake > div,
-.dumbellApple > div,
-.greenPink > div,
-.dumbellTape > div,
-.leavePear > div,
-.egg > div,
-.shoe > div,
-.pressUp > div,
-.field > div,
-.think > div,
-.vegetable > div,
-.eat > div {
-  background-size: cover;
-  background-repeat: no-repeat;
-  width: 531px;
-  height: 228px;
-  transform: translateX(10rem);
-}
 
 .cake,
 .dumbellApple,
