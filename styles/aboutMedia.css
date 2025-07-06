@@ -371,14 +371,15 @@
 
   /* proud section */
 
-    .proud {
+  .proud {
     row-gap: 2rem;
-}
+  }
 
   .proud div {
     width: 90%;
-}
-  .proud div h2, .proud div p{
+  }
+  .proud div h2,
+  .proud div p {
     text-align: center;
-}
+  }
 }

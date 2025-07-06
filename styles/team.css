@@ -1,0 +1,99 @@
+.blog-hero {
+  width: 1596px;
+  height: 543px;
+  margin: 5rem auto 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 1.9rem;
+  background-color: var(--bg-light);
+  border-radius: 0.5rem;
+  padding-top: 4rem;
+  position: relative;
+}
+
+.blog-hero::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  margin: auto;
+  background-image: url("../assets/laptop/images/star.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 50%;
+  height: 40%;
+}
+
+.blog-hero img,
+.blog-hero p,
+.blog-hero h2 {
+  position: relative;
+  z-index: 5;
+}
+
+.blog-hero p {
+  text-align: center;
+  width: 90%;
+  margin-top: 0.3rem;
+}
+
+
+/* proud section */
+
+.proud {
+    width: 1596px;
+    border-radius: 0.5rem;
+    background-color: var(--bg-light);
+    margin: 7rem auto 0 auto;
+    padding: 3rem 0 3rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    position: relative;
+    z-index: 6;
+}
+
+.proud div {
+    width: 70%;
+}
+
+.proud::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: url('../assets/general-images/AbstractDesign.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100px;
+    height: 90px;
+}
+
+.proud::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-image: url('../assets/general-images/Petals.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100px;
+    height: 90px;
+}
+
+.proud div p{
+    text-align: left;
+    margin: 1rem 0 0 0;
+    position: relative;
+    z-index: 5;
+}
+
+.proud div h2{
+    margin: 0;
+    text-align: left;
+    position: relative;
+    z-index: 5;
+}
