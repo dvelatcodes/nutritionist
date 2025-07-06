@@ -3,7 +3,7 @@ let navLinks = document.querySelector('.navigation-container');
 let hamChecker = false;
 let pages = document.querySelectorAll('.page');
 let body = document.querySelector('body');
-// let header = document.querySelector('header');
+let goUp = document.querySelector('.go-up');
 
 
 
@@ -37,4 +37,11 @@ pages.forEach((page) => {
             page.style.color = '#CBEA7B';
         }
     }
+})
+
+
+// navigate to the top of the page function
+
+goUp.addEventListener('click', ()=>{
+    window.scrollTo({ top: 0, behavior: 'smooth' });
 })
