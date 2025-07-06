@@ -276,15 +276,14 @@
 }
 
 @media screen and (max-width: 530px) {
-
   .blog {
-  padding-top: 7rem;
-}
+    padding-top: 7rem;
+  }
 
-.blog > h2 + p {
-  margin: 1.5rem 0 3rem 0;
-  width: 80%;
-}
+  .blog > h2 + p {
+    margin: 1.5rem 0 3rem 0;
+    width: 80%;
+  }
 
   .blog-card {
     height: fit-content;
@@ -292,13 +291,13 @@
   }
 
   .blog-card h4 {
-  font-size: 20px;
-}
+    font-size: 20px;
+  }
 
-.blog-card p {
-  margin: 1rem 0 2rem 0;
-  width: 90%;
-}
+  .blog-card p {
+    margin: 1rem 0 2rem 0;
+    width: 90%;
+  }
 
   .writer-cover {
     display: block;
@@ -306,7 +305,7 @@
     padding: 1.5rem 0 1.5rem 1.5rem;
   }
 
-  .caption{
+  .caption {
     margin-top: 2rem;
     display: flex;
     column-gap: 0.5rem;
