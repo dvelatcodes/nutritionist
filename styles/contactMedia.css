@@ -3,12 +3,24 @@
     width: 1280px;
     height: 427px;
   }
+
+  /* proud section */
+
+  .proud {
+    width: 1280px;
+  }
 }
 
 @media screen and (max-width: 1294px) {
   .blog-hero {
     width: 88vw;
     height: fit-content;
+  }
+
+  /* proud section */
+
+  .proud {
+    width: 88vw;
   }
 }
 
@@ -20,5 +32,20 @@
   .blog-hero::before {
     width: 70%;
     height: 70%;
+  }
+
+  /* proud section */
+
+  .proud {
+    row-gap: 2rem;
+  }
+
+  .proud div {
+    width: 90%;
+  }
+
+  .proud div h2,
+  .proud div p {
+    text-align: center;
   }
 }
