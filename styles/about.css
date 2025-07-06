@@ -1,7 +1,7 @@
 .hero-about {
-  width: 1596.5px;
+  width: 1596px;
   height: 520px;
-  margin: 5rem auto 12rem auto;
+  margin: 5rem auto 4rem auto;
   display: grid;
   gap: 0.7rem;
   grid-template-areas:
@@ -74,6 +74,32 @@
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 0.5rem;
+}
+
+.welcome {
+    width: 1596px;
+    height: fit-content;
+    border-radius: 0.5rem;
+    background-color: var(--bg-light);
+    margin: auto;
+    overflow: hidden;
+    padding-bottom: 4rem;
+}
+
+.welcome h2, p {
+    text-align: center;
+}
+
+.welcome p {
+    width: 85%;
+    margin: auto;
+    line-height: 150%;
+}
+
+.welcome h2 {
+    font-size: 48px;
+    font-weight: 600;
+    margin: 5rem 0 3rem 0;
 }
 
 

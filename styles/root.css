@@ -26,13 +26,8 @@
   font-family: "Urbanist", sans-serif;
 }
 
-
-/* body {
-  overflow-y: hidden;
-} */
-
 body {
-  background-color: var(--bg-light);
+  background-color: var(--color-light-green);
   width: 100vw;
   height: fit-content;
   max-width: 1920px;

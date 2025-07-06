@@ -40,6 +40,15 @@
   .i {
     background-image: url("../assets/laptop/images/Rectangle6326.png");
   }
+
+  /* welcome section */
+
+  .welcome {
+    width: 1280px;
+  }
+  .welcome h2 {
+    font-size: 38px;
+}
 }
 
 @media screen and (max-width: 1294px) {
@@ -47,6 +56,10 @@
     width: 88vw;
     height: 138px;
     margin: 2rem auto 12rem auto;
+  }
+
+  .welcome {
+    width: 88vw;
   }
 
   .c img {
@@ -58,7 +71,7 @@
 @media screen and (max-width: 425px) {
    .hero-about {
     height: 18vh;
-    margin: 2rem auto 12rem auto;
+    margin: 2rem auto 4rem auto;
     gap: 0.3rem;
   }
 
@@ -66,4 +79,9 @@
     width: 50px;
     height: 50px;
   }
+
+   /* welcome section */
+  .welcome h2 {
+    font-size: 28px;
+}
 }
