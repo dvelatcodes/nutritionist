@@ -1,4 +1,4 @@
-.blog-hero {
+.process {
   width: 1596px;
   height: 543px;
   margin: 5rem auto 0 auto;
@@ -12,7 +12,7 @@
   position: relative;
 }
 
-.blog-hero::before {
+.process::before {
   content: "";
   position: absolute;
   left: 0;
@@ -26,23 +26,23 @@
   height: 40%;
 }
 
-.blog-hero img,
-.blog-hero p,
-.blog-hero h2 {
+.process img,
+.process p,
+.process h2 {
   position: relative;
   z-index: 5;
 }
 
-.blog-hero p {
+.process p {
   text-align: center;
   width: 90%;
   margin-top: 0.3rem;
 }
 
 
-/* proud section */
+/* begin section */
 
-.proud {
+.begin {
     width: 1596px;
     border-radius: 0.5rem;
     background-color: var(--bg-light);
@@ -56,11 +56,11 @@
     z-index: 6;
 }
 
-.proud div {
+.begin div {
     width: 70%;
 }
 
-.proud::before {
+.begin::before {
     content: '';
     position: absolute;
     top: 0;
@@ -72,7 +72,7 @@
     height: 90px;
 }
 
-.proud::after {
+.begin::after {
     content: '';
     position: absolute;
     bottom: 0;
@@ -84,17 +84,29 @@
     height: 90px;
 }
 
-.proud div p{
+.begin div p{
     text-align: left;
     margin: 1rem 0 0 0;
     position: relative;
     z-index: 5;
 }
 
-.proud div h2{
+.begin div h2{
     margin: 0;
     text-align: left;
     position: relative;
     z-index: 5;
+}
+
+/* work section */
+
+.work {
+  margin: 5rem;
+}
+
+.work p {
+  text-align: center;
+  width: 85%;
+  margin: 1.2rem 0;
 }
 

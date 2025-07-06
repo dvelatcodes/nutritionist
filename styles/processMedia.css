@@ -1,53 +1,53 @@
 @media screen and (max-width: 1440px) {
-  .blog-hero {
+  .process {
     width: 1280px;
     height: 427px;
   }
 
-   /* proud section */
+  /* begin section */
 
-  .proud {
+  .begin {
     width: 1280px;
   }
 
 }
 
 @media screen and (max-width: 1294px) {
-  .blog-hero {
+  .process {
     width: 88vw;
     height: fit-content;
   }
 
-   /* proud section */
+   /* begin section */
 
-  .proud {
+  .begin {
     width: 88vw;
   }
 
 }
 
 @media screen and (max-width: 425px) {
-  .blog-hero p {
+  .process p {
     width: 93%;
   }
 
-  .blog-hero::before {
+  .process::before {
     width: 70%;
     height: 70%;
   }
 
-    /* proud section */
+    /* begin section */
 
-  .proud {
+  .begin {
     row-gap: 2rem;
   }
 
-  .proud div {
+  .begin div {
     width: 90%;
   }
 
-  .proud div h2,
-  .proud div p {
+  .begin div h2,
+  .begin div p {
     text-align: center;
   }
   
