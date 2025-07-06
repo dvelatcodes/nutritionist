@@ -55,6 +55,68 @@
     margin-top: 4rem;
     width: 1280px;
   }
+
+  .gym {
+    background-image: url("../assets/laptop/images/gym.png");
+  }
+
+  .trophy {
+    background-image: url("../assets/laptop/images/trophy.png");
+  }
+
+  .soil {
+    background-image: url("../assets/laptop/images/soil.png");
+  }
+
+  .shake-hands {
+    background-image: url("../assets/laptop/images/shake-hands.png");
+  }
+
+  .volunteer {
+    background-image: url("../assets/laptop/images/volunteer.png");
+  }
+
+  .meeting {
+    background-image: url("../assets/laptop/images/meeting.png");
+  }
+
+  .balloon {
+    background-image: url("../assets/laptop/images/balloon.png");
+  }
+
+  .goal-post {
+    background-image: url("../assets/laptop/images/goal-post.png");
+  }
+
+  .two-apples {
+    background-image: url("../assets/laptop/images/two-apples.png");
+  }
+
+  .writing {
+    background-image: url("../assets/laptop/images/writing.png");
+  }
+
+  .gym,
+  .trophy,
+  .soil,
+  .shake-hands,
+  .volunteer,
+  .meeting,
+  .balloon,
+  .goal-post,
+  .two-apples,
+  .writing {
+    height: 420px;
+  }
+
+  .grid-story h4 {
+    font-size: 24px;
+}
+
+.grid-story h6 {
+    font-size: 16px;
+}
+
 }
 
 @media screen and (max-width: 1294px) {
@@ -91,4 +153,58 @@
   .welcome h2 {
     font-size: 28px;
   }
+
+  /* story section */
+
+  .grid-story {
+    grid-template-areas:
+      "gym"
+      "inspiring"
+      "trophy"
+      "recognition"
+      "soil"
+      "growth"
+      "shake-hands"
+      "success";
+  }
+
+  .gym {
+    background-image: url("../assets/mobile/images/gym.png");
+  }
+
+  .trophy {
+    background-image: url("../assets/mobile/images/trophy.png");
+  }
+
+  .soil {
+    background-image: url("../assets/mobile/images/soil.png");
+  }
+
+  .shake-hands {
+    background-image: url("../assets/mobile/images/shake-hands.png");
+  }
+
+  .volunteer,
+  .meeting,
+  .balloon,
+  .goal-post,
+  .two-apples,
+  .writing {
+    display: none;
+  }
+
+  .gym,
+  .trophy,
+  .soil,
+  .shake-hands {
+    height: 206px;
+  }
+
+    .grid-story h4 {
+    font-size: 20px;
+}
+
+.grid-story h6 {
+    font-size: 14px;
+}
 }

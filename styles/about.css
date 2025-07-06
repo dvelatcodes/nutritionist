@@ -110,7 +110,7 @@ p {
 }
 
 .story p {
-  margin: 2rem auto 3rem auto;
+  margin: 2rem auto 4rem auto;
   width: 85%;
 }
 
@@ -129,117 +129,198 @@ p {
     "expand goal-post"
     "two-apples research"
     "inception writing";
-  margin: auto;
-  /* background-color: blue; */
 }
-
 
 .gym {
   grid-area: gym;
-  background-image: url('../assets/desktop/images/gym.png');
+  background-image: url("../assets/desktop/images/gym.png");
   border-top-left-radius: 0.5rem;
 }
 
 .inspiring {
   grid-area: inspiring;
-  background-color: var(--bg-light);
   border-top-right-radius: 0.5rem;
 }
 
 .recognition {
   grid-area: recognition;
-  background-color: var(--bg-light);
 }
 
 .trophy {
   grid-area: trophy;
-  background-image: url('../assets/desktop/images/trophy.png');
+  background-image: url("../assets/desktop/images/trophy.png");
 }
 
 .soil {
   grid-area: soil;
-  background-image: url('../assets/desktop/images/soil.png');
+  background-image: url("../assets/desktop/images/soil.png");
 }
 
 .growth {
   grid-area: growth;
-  background-color: var(--bg-light);
 }
 
 .success {
   grid-area: success;
-  background-color: var(--bg-light);
 }
 
 .shake-hands {
   grid-area: shake-hands;
-  background-image: url('../assets/desktop/images/shake-hands.png');
+  background-image: url("../assets/desktop/images/shake-hands.png");
 }
 
 .volunteer {
   grid-area: volunteer;
-  background-image: url('../assets/desktop/images/volunteer.png');
+  background-image: url("../assets/desktop/images/volunteer.png");
 }
 
 .support {
   grid-area: support;
-  background-color: var(--bg-light);
 }
 
 .innovate {
   grid-area: innovate;
-  background-color: var(--bg-light);
 }
 
 .meeting {
   grid-area: meeting;
-  background-image: url('../assets/desktop/images/meeting.png');
+  background-image: url("../assets/desktop/images/meeting.png");
 }
 
 .balloon {
   grid-area: balloon;
-  background-image: url('../assets/desktop/images/balloon.png');
+  background-image: url("../assets/desktop/images/balloon.png");
 }
 
 .celebrating {
   grid-area: celebrating;
-  background-color: var(--bg-light);
 }
 
 .expand {
   grid-area: expand;
-  background-color: var(--bg-light);
 }
 
 .goal-post {
   grid-area: goal-post;
-  background-image: url('../assets/desktop/images/goal-post.png');
+  background-image: url("../assets/desktop/images/goal-post.png");
 }
 
 .two-apples {
   grid-area: two-apples;
-  background-image: url('../assets/desktop/images/two-apples.png');
+  background-image: url("../assets/desktop/images/two-apples.png");
 }
 
 .research {
   grid-area: research;
-  background-color: var(--bg-light);
 }
 
 .inception {
   grid-area: inception;
-  background-color: var(--bg-light);
   border-bottom-left-radius: 0.5rem;
 }
 
 .writing {
   grid-area: writing;
-  background-image: url('../assets/desktop/images/writing.png');
+  background-image: url("../assets/desktop/images/writing.png");
   border-bottom-right-radius: 0.5rem;
 }
 
-.gym, .trophy, .soil, .shake-hands, .volunteer, .meeting, .balloon, .goal-post, .two-apples, .writing {
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 530px;
+.gym,
+.trophy,
+.soil,
+.shake-hands,
+.volunteer,
+.meeting,
+.balloon,
+.goal-post,
+.two-apples,
+.writing {
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 530px;
+}
+
+.inspiring,
+.recognition,
+.growth,
+.success,
+.support,
+.innovate,
+.celebrating,
+.expand,
+.research,
+.inception {
+  background-color: var(--bg-light);
+  display: flex;
+  flex-direction: column;
+  row-gap: 2rem;
+  padding-top: 6rem;
+}
+
+.grid-story h4 {
+  font-size: 28px;
+  font-weight: 600;
+  color: var(--color-thick-text);
+}
+
+.grid-story h6 {
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--color-p-text);
+}
+/* left */
+
+.inspiring,
+.growth,
+.support,
+.celebrating,
+.research {
+  align-items: start;
+  padding-left: 5rem;
+}
+
+.inspiring h4,
+.inspiring p,
+.inspiring h6,
+.growth h4,
+.growth p,
+.growth h6,
+.support h4,
+.support p,
+.support h6,
+.celebrating h4,
+.celebrating p,
+.celebrating h6,
+.research h4,
+.research p,
+.research h6 {
+  text-align: left;
+  margin: unset;
+}
+
+.recognition,
+.success,
+.expand,
+.inception, .innovate {
+  align-items: end;
+  padding-right: 5rem;
+}
+
+.recognition h4,
+.recognition p,
+.recognition h6,
+.success h4,
+.success p,
+.success h6,
+.innovate h4,
+.innovate p,
+.innovate h6,
+.expand h4,
+.expand p,
+.expand h6,
+.inception h4,
+.inception p,
+.inception h6 {
+  margin: unset;
+  text-align: end;
 }
