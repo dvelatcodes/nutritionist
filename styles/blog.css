@@ -83,9 +83,9 @@
     "kettle lamb";
   margin: 5rem auto 7rem auto;
   border-radius: 0.5rem;
-  padding: 3.5rem 1.5rem 2rem 2rem;
-  column-gap: 1.5rem;
-  row-gap: 5rem;
+  /* padding: 0 1.5rem 0 2rem; */
+  /* column-gap: 1.5rem; */
+  /* row-gap: 5rem; */
 }
 
 .cake {
@@ -134,7 +134,54 @@
 
 .eat {
   grid-area: lamb;
-  /* position: relative; */
+}
+
+.cake > div {
+  background-image: url("../assets/desktop/images/cake.png");
+}
+
+.dumbellApple > div {
+  background-image: url("../assets/desktop/images/dumbellApple.png");
+}
+
+.greenPink > div {
+  background-image: url("../assets/desktop/images/greenPink.png");
+}
+
+.dumbellTape > div {
+  background-image: url("../assets/desktop/images/dumbellTape.png");
+}
+
+.leavePear > div {
+  background-image: url("../assets/desktop/images/leavePear.png");
+}
+
+.egg > div {
+  background-image: url("../assets/desktop/images/egg.png");
+}
+
+.shoe > div {
+  background-image: url("../assets/desktop/images/shoe.png");
+}
+
+.pressUp > div {
+  background-image: url("../assets/desktop/images/pressUp.png");
+}
+
+.field > div {
+  background-image: url("../assets/desktop/images/field.png");
+}
+
+.think > div {
+  background-image: url("../assets/desktop/images/think.png");
+}
+
+.vegetable > div {
+  background-image: url("../assets/desktop/images/vegetable.png");
+}
+
+.eat > div {
+  background-image: url("../assets/desktop/images/eat.png");
 }
 
 .loss1 {
@@ -159,15 +206,96 @@
 }
 
 .read-more:hover {
- background-color: var(--color-thick-lemon);
+  background-color: var(--color-thick-lemon);
 }
 
-
-
-.cake section, .dumbellApple section, .greenPink section, .dumbellTape section, .leavePear section, .egg section, .shoe section, .pressUp section, .field section, .think section, .vegetable section, .eat section {
+.cake section,
+.dumbellApple section,
+.greenPink section,
+.dumbellTape section,
+.leavePear section,
+.egg section,
+.shoe section,
+.pressUp section,
+.field section,
+.think section,
+.vegetable section,
+.eat section {
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+
+.cake > div,
+.dumbellApple > div,
+.greenPink > div,
+.dumbellTape > div,
+.leavePear > div,
+.egg > div,
+.shoe > div,
+.pressUp > div,
+.field > div,
+.think > div,
+.vegetable > div,
+.eat > div {
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 531px;
+  height: 228px;
+  transform: translateX(10rem);
+}
+
+.cake,
+.dumbellApple,
+.greenPink,
+.dumbellTape,
+.leavePear,
+.egg,
+.shoe,
+.pressUp,
+.field,
+.think,
+.vegetable,
+.eat {
+  position: relative;
+}
+
+.cake::before,
+.greenPink::before,
+.leavePear::before,
+.shoe::before,
+.field::before,
+.vegetable::before,
+.dumbellApple::before,
+.dumbellTape::before,
+.egg::before,
+.pressUp::before,
+.think::before,
+.eat::before{
+  content: "";
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  height: 1px;
+  width: 100%;
+  background-color: var(--color-lemon);
+}
+
+.cake::after,
+.greenPink::after,
+.leavePear::after,
+.shoe::after,
+.field::after,
+.vegetable::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 100%;
+  width: 1px;
+  background-color: var(--color-lemon);
 }
 
 /* .cake, .dumbellApple, .greenPink, .dumbellTape, .leavePear, .egg, .shoe, .pressUp, .field, .think, .vegetable, .eat {

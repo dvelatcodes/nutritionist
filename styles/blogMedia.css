@@ -19,6 +19,12 @@
   .loss2 {
     font-size: 20px;
   }
+
+.cake > div, .dumbellApple > div, .greenPink > div, .dumbellTape > div, .leavePear > div, .egg > div, .shoe > div, .pressUp > div, .field > div, .think > div, .vegetable > div, .eat > div {
+ width: 393px;
+ height: 190px;
+}
+
 }
 
 @media screen and (max-width: 1294px) {
@@ -59,4 +65,10 @@
   .loss1 {
     font-size: 18px;
   }
+
+  .cake > div, .dumbellApple > div, .greenPink > div, .dumbellTape > div, .leavePear > div, .egg > div, .shoe > div, .pressUp > div, .field > div, .think > div, .vegetable > div, .eat > div {
+ width: 262px;
+ height: 131px;
+}
+
 }
