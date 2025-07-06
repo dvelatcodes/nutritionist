@@ -44,7 +44,8 @@
   /* welcome section */
 
   .welcome,
-  .achievement {
+  .achievement,
+  .proud {
     width: 1280px;
   }
   .welcome h2 {
@@ -160,7 +161,8 @@
 
   .welcome,
   .story,
-  .achievement {
+  .achievement,
+  .proud {
     width: 88vw;
   }
 
@@ -218,20 +220,19 @@
     width: 85%;
   }
 
-     .flower,
+  .flower,
   .cap,
   .fork,
   .wallet {
     padding: 3rem 0 2rem 1rem;
   }
 
-    .flower p,
+  .flower p,
   .cap p,
   .fork p,
   .wallet p {
     margin: 0 0 0 0;
   }
-
 }
 
 @media screen and (max-width: 731px) {
@@ -360,12 +361,24 @@
     font-size: 18px;
   }
 
-   .achievement p {
+  .achievement p {
     width: 90%;
   }
 
-   .achievement h2 {
+  .achievement h2 {
     margin-top: 5rem;
   }
 
+  /* proud section */
+
+    .proud {
+    row-gap: 2rem;
+}
+
+  .proud div {
+    width: 90%;
+}
+  .proud div h2, .proud div p{
+    text-align: center;
+}
 }

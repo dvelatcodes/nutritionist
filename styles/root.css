@@ -208,6 +208,8 @@ footer {
   background-color: var(--color-lemon);
   border: none;
   cursor: pointer;
+  position: relative;
+  z-index: 5;
 }
 
 .cta-button:hover {
