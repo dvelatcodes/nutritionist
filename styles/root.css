@@ -246,6 +246,19 @@ footer {
     flex-wrap: wrap;
     padding: 0 1.5rem 0 1.5rem;
   }
+
+  .go-up{
+column-gap: 0.2rem;
+  }
+
+  .go-up span{
+    font-size: 14;
+  }
+
+  .go-up img{
+    padding: 0.4rem;
+  }
+
   .bottom{
     flex-wrap: wrap;
     justify-content: center;
@@ -337,4 +350,14 @@ font-size: 14px;
   p {
     font-size: 16px;
   }
+
+  .ghost {
+  margin-top: 1.2rem;
+}
+
+  .contact-link a{
+  column-gap: unset;
+  width: 85%;
+}
+
 }
