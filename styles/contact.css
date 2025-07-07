@@ -241,3 +241,14 @@ margin-top: 1.3rem;
 .fields button:hover {
   background-color: var(--color-thick-lemon);
 }
+
+
+.location{
+  width: 45%;
+}
+
+
+.location iframe {
+  width: 100%;
+  height: 50vh;
+}
