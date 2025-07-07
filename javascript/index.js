@@ -25,23 +25,33 @@ hamburger.addEventListener('click', (e) => {
 
 
 
-// function to showcase active navigation link
+// Get the current path
+const currentPath = window.location.pathname;
+
+// Loop through each link
 pages.forEach((page) => {
-    let activePage = page.getAttribute('href');
-    let url = window.location.pathname;
-    if (activePage == url) {
-        if (url.match(/\/pages\/contact.html/)) {
-            page.style.color = '#262626';
-        }
-        else {
+    const href = new URL(page.href).pathname;
+    const text = page.textContent.trim().toLowerCase();
+
+    // Reset styles
+    page.style.color = '';
+
+    const isActive =
+        href === currentPath || (currentPath === '/' && href.endsWith('/index.html'));
+
+    if (isActive) {
+        if (href === '/pages/contact.html') {
+            page.style.color = '#000';
+        } else {
             page.style.color = '#CBEA7B';
         }
     }
-})
+});
+
 
 
 // navigate to the top of the page function
 
-goUp.addEventListener('click', ()=>{
+goUp.addEventListener('click', () => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
 })
