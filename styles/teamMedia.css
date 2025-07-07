@@ -1,51 +1,51 @@
 @media screen and (max-width: 1440px) {
-  .blog-hero {
+  .expert {
     width: 1280px;
     height: 427px;
   }
 
-  /* proud section */
+join section */
 
-  .proud {
+  .join {
     width: 1280px;
   }
 }
 
 @media screen and (max-width: 1294px) {
-  .blog-hero {
+  .expert {
     width: 88vw;
     height: fit-content;
   }
 
-  /* proud section */
+  /* join section */
 
-  .proud {
+  .join {
     width: 88vw;
   }
 }
 
 @media screen and (max-width: 425px) {
-  .blog-hero p {
+  .expert p {
     width: 93%;
   }
 
-  .blog-hero::before {
+  .expert::before {
     width: 70%;
     height: 70%;
   }
 
-  /* proud section */
+  /* join section */
 
-  .proud {
+  .join {
     row-gap: 2rem;
   }
 
-  .proud div {
+  .join div {
     width: 90%;
   }
 
-  .proud div h2,
-  .proud div p {
+  .join div h2,
+  .join div p {
     text-align: center;
   }
   

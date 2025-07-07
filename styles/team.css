@@ -1,4 +1,4 @@
-.blog-hero {
+.expert {
   width: 1596px;
   height: 543px;
   margin: 5rem auto 0 auto;
@@ -12,7 +12,7 @@
   position: relative;
 }
 
-.blog-hero::before {
+.expert::before {
   content: "";
   position: absolute;
   left: 0;
@@ -26,23 +26,23 @@
   height: 40%;
 }
 
-.blog-hero img,
-.blog-hero p,
-.blog-hero h2 {
+.expert img,
+.expert p,
+.expert h2 {
   position: relative;
   z-index: 5;
 }
 
-.blog-hero p {
+.expert p {
   text-align: center;
   width: 90%;
   margin-top: 0.3rem;
 }
 
 
-/* proud section */
+/* join section */
 
-.proud {
+.join {
     width: 1596px;
     border-radius: 0.5rem;
     background-color: var(--bg-light);
@@ -56,11 +56,11 @@
     z-index: 6;
 }
 
-.proud div {
+.join div {
     width: 70%;
 }
 
-.proud::before {
+.join::before {
     content: '';
     position: absolute;
     top: 0;
@@ -72,7 +72,7 @@
     height: 90px;
 }
 
-.proud::after {
+.join::after {
     content: '';
     position: absolute;
     bottom: 0;
@@ -84,14 +84,14 @@
     height: 90px;
 }
 
-.proud div p{
+.join div p{
     text-align: left;
     margin: 1rem 0 0 0;
     position: relative;
     z-index: 5;
 }
 
-.proud div h2{
+.join div h2{
     margin: 0;
     text-align: left;
     position: relative;
