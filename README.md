@@ -16,6 +16,11 @@ Users are be able to:
 
 - check out live site here [nutritionist](https://dvelatcodes.github.io/nutritionist/)
 
+
+## Hosted on Vercel Domain
+
+- Please check live site here [NUTRITIONIST](https://nutritionist-neon.vercel.app/)
+
 ## My process
 
 ### Built with
