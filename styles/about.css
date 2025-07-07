@@ -374,7 +374,6 @@ p {
   text-align: end;
 }
 
-
 /* achievement section */
 
 .achievement {
@@ -433,92 +432,90 @@ p {
 .cap div,
 .fork div,
 .wallet div {
-    display: flex;
-    align-items: center;
-    column-gap: 0.6rem;
+  display: flex;
+  align-items: center;
+  column-gap: 0.6rem;
 }
 
 .flower div img,
 .cap div img,
 .fork div img,
 .wallet div img {
-    width: 40px;
-    height: 40px;
-    padding: 0.5rem 0.7rem;
-    background-color: var(--color-lemon);
-    border-radius: 0.3rem;
+  width: 40px;
+  height: 40px;
+  padding: 0.5rem 0.7rem;
+  background-color: var(--color-lemon);
+  border-radius: 0.3rem;
 }
 
 .flower div span,
 .cap div span,
 .fork div span,
 .wallet div span {
-    font-weight: 600;
-    font-size: 24px;
-    color: var(--color-dark-green);
+  font-weight: 600;
+  font-size: 24px;
+  color: var(--color-dark-green);
 }
 
 .achievement-cards p {
-    text-align: left;
-    margin: unset;
+  text-align: left;
+  margin: unset;
 }
-
 
 /* proud section */
 
 .proud {
-    width: 1596px;
-    border-radius: 0.5rem;
-    background-color: var(--bg-light);
-    margin: 7rem auto 0 auto;
-    padding: 3rem 0 3rem 0;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    position: relative;
-    z-index: 6;
+  width: 1596px;
+  border-radius: 0.5rem;
+  background-color: var(--bg-light);
+  margin: 7rem auto 0 auto;
+  padding: 3rem 0 3rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  position: relative;
+  z-index: 6;
 }
 
 .proud div {
-    width: 70%;
+  width: 70%;
 }
 
 .proud::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    background-image: url('../assets/general-images/AbstractDesign.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100px;
-    height: 90px;
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-image: url("../assets/general-images/AbstractDesign.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100px;
+  height: 90px;
 }
 
 .proud::after {
-    content: '';
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    background-image: url('../assets/general-images/Petals.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100px;
-    height: 90px;
+  content: "";
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background-image: url("../assets/general-images/Petals.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100px;
+  height: 90px;
 }
 
-.proud div p{
-    text-align: left;
-    margin: 1rem 0 0 0;
-    position: relative;
-    z-index: 5;
+.proud div p {
+  text-align: left;
+  margin: 1rem 0 0 0;
+  position: relative;
+  z-index: 5;
 }
 
-.proud div h2{
-    margin: 0;
-    text-align: left;
-    position: relative;
-    z-index: 5;
+.proud div h2 {
+  margin: 0;
+  text-align: left;
+  position: relative;
+  z-index: 5;
 }
-

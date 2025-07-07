@@ -10,7 +10,8 @@
 
   /* cta section */
 
-  .cta, form {
+  .cta,
+  form {
     width: 1280px;
   }
 }
@@ -23,7 +24,8 @@
 
   /* cta section */
 
-  .cta, form {
+  .cta,
+  form {
     width: 88vw;
   }
 }
@@ -34,13 +36,12 @@
   }
 
   .fields {
-  width: 80%;
-}
+    width: 80%;
+  }
 
-.location{
-  width: 80%;
-}
-
+  .location {
+    width: 80%;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -82,20 +83,19 @@
     text-align: center;
   }
 
-    .fields {
-  width: 95%;
-}
+  .fields {
+    width: 95%;
+  }
 
-.location{
-  width: 95%;
-}
+  .location {
+    width: 95%;
+  }
 
-.fields div:nth-child(1) {
-width: 100%;
-}
+  .fields div:nth-child(1) {
+    width: 100%;
+  }
 
-.fields div:nth-child(2) {
-width: 100%;
-}
-
+  .fields div:nth-child(2) {
+    width: 100%;
+  }
 }

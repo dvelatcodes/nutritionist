@@ -21,52 +21,52 @@
   }
 
   .cake > div {
-  background-image: url("../assets/laptop/images/cake.png");
-}
+    background-image: url("../assets/laptop/images/cake.png");
+  }
 
-.dumbellApple > div {
-  background-image: url("../assets/laptop/images/dumbellApple.png");
-}
+  .dumbellApple > div {
+    background-image: url("../assets/laptop/images/dumbellApple.png");
+  }
 
-.greenPink > div {
-  background-image: url("../assets/laptop/images/greenPink.png");
-}
+  .greenPink > div {
+    background-image: url("../assets/laptop/images/greenPink.png");
+  }
 
-.dumbellTape > div {
-  background-image: url("../assets/laptop/images/dumbellTape.png");
-}
+  .dumbellTape > div {
+    background-image: url("../assets/laptop/images/dumbellTape.png");
+  }
 
-.leavePear > div {
-  background-image: url("../assets/laptop/images/leavePear.png");
-}
+  .leavePear > div {
+    background-image: url("../assets/laptop/images/leavePear.png");
+  }
 
-.egg > div {
-  background-image: url("../assets/laptop/images/egg.png");
-}
+  .egg > div {
+    background-image: url("../assets/laptop/images/egg.png");
+  }
 
-.shoe > div {
-  background-image: url("../assets/laptop/images/shoe.png");
-}
+  .shoe > div {
+    background-image: url("../assets/laptop/images/shoe.png");
+  }
 
-.pressUp > div {
-  background-image: url("../assets/laptop/images/pressUp.png");
-}
+  .pressUp > div {
+    background-image: url("../assets/laptop/images/pressUp.png");
+  }
 
-.field > div {
-  background-image: url("../assets/laptop/images/field.png");
-}
+  .field > div {
+    background-image: url("../assets/laptop/images/field.png");
+  }
 
-.think > div {
-  background-image: url("../assets/laptop/images/think.png");
-}
+  .think > div {
+    background-image: url("../assets/laptop/images/think.png");
+  }
 
-.vegetable > div {
-  background-image: url("../assets/laptop/images/vegetable.png");
-}
+  .vegetable > div {
+    background-image: url("../assets/laptop/images/vegetable.png");
+  }
 
-.eat > div {
-  background-image: url("../assets/laptop/images/eat.png");
-}
+  .eat > div {
+    background-image: url("../assets/laptop/images/eat.png");
+  }
 
   .cake > div,
   .dumbellApple > div,
@@ -93,56 +93,6 @@
   }
 
   .cake > div,
-.dumbellApple > div,
-.greenPink > div,
-.dumbellTape > div,
-.leavePear > div,
-.egg > div,
-.shoe > div,
-.pressUp > div,
-.field > div,
-.think > div,
-.vegetable > div,
-.eat > div {
-  transform: translateX(0);
-  margin: auto;
-}
-
-.loss1 {
-  margin: 2rem auto 3rem auto;
-  text-align: center;
-}
-
-.loss2 {
-  text-align: center;
-  width: 70%;
-  margin: 0 auto 0.7rem auto;
-}
-
-.loss2 + p {
-  text-align: center;
-}
-
-.cake section,
-.dumbellApple section,
-.greenPink section,
-.dumbellTape section,
-.leavePear section,
-.egg section,
-.shoe section,
-.pressUp section,
-.field section,
-.think section,
-.vegetable section,
-.eat section {
-  align-items: center;
- margin: 2rem 0 2.4rem 0;
- flex-direction: column;
- row-gap: 1rem;
-}
-
-@media screen and (max-width: 921px) {
-    .cake > div,
   .dumbellApple > div,
   .greenPink > div,
   .dumbellTape > div,
@@ -154,26 +104,75 @@
   .think > div,
   .vegetable > div,
   .eat > div {
-    width: 80%;
-    height: 131px;
+    transform: translateX(0);
+    margin: auto;
   }
-}
 
-.cake section div,
-.dumbellApple section div,
-.greenPink section div,
-.dumbellTape section div,
-.leavePear section div,
-.egg section div,
-.shoe section div,
-.pressUp section div,
-.field section div,
-.think section div,
-.vegetable section div,
-.eat section div {
- width: 90%;
-}
+  .loss1 {
+    margin: 2rem auto 3rem auto;
+    text-align: center;
+  }
 
+  .loss2 {
+    text-align: center;
+    width: 70%;
+    margin: 0 auto 0.7rem auto;
+  }
+
+  .loss2 + p {
+    text-align: center;
+  }
+
+  .cake section,
+  .dumbellApple section,
+  .greenPink section,
+  .dumbellTape section,
+  .leavePear section,
+  .egg section,
+  .shoe section,
+  .pressUp section,
+  .field section,
+  .think section,
+  .vegetable section,
+  .eat section {
+    align-items: center;
+    margin: 2rem 0 2.4rem 0;
+    flex-direction: column;
+    row-gap: 1rem;
+  }
+
+  @media screen and (max-width: 921px) {
+    .cake > div,
+    .dumbellApple > div,
+    .greenPink > div,
+    .dumbellTape > div,
+    .leavePear > div,
+    .egg > div,
+    .shoe > div,
+    .pressUp > div,
+    .field > div,
+    .think > div,
+    .vegetable > div,
+    .eat > div {
+      width: 80%;
+      height: 131px;
+    }
+  }
+
+  .cake section div,
+  .dumbellApple section div,
+  .greenPink section div,
+  .dumbellTape section div,
+  .leavePear section div,
+  .egg section div,
+  .shoe section div,
+  .pressUp section div,
+  .field section div,
+  .think section div,
+  .vegetable section div,
+  .eat section div {
+    width: 90%;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -186,20 +185,25 @@
 }
 
 @media screen and (max-width: 585px) {
+  .leavePear,
+  .egg,
+  .shoe,
+  .pressUp,
+  .field,
+  .think,
+  .vegetable,
+  .eat {
+    display: none;
+  }
 
-.leavePear, .egg, .shoe, .pressUp, .field, .think, .vegetable, .eat {
-  display: none;
-}
-
-.categories {
-  display: grid;
-  grid-template-areas:
-    "apple"
-    "ball"
-    "cat"
-    "dog";
-}
-
+  .categories {
+    display: grid;
+    grid-template-areas:
+      "apple"
+      "ball"
+      "cat"
+      "dog";
+  }
 }
 
 @media screen and (max-width: 425px) {
@@ -224,28 +228,26 @@
     font-size: 18px;
   }
 
+  .cake > div {
+    background-image: url("../assets/mobile/images/cake.png");
+  }
 
-    .cake > div {
-  background-image: url("../assets/mobile/images/cake.png");
-}
+  .dumbellApple > div {
+    background-image: url("../assets/mobile/images/dumbellApple.png");
+  }
 
-.dumbellApple > div {
-  background-image: url("../assets/mobile/images/dumbellApple.png");
-}
+  .greenPink > div {
+    background-image: url("../assets/mobile/images/greenPink.png");
+  }
 
-.greenPink > div {
-  background-image: url("../assets/mobile/images/greenPink.png");
-}
-
-.dumbellTape > div {
-  background-image: url("../assets/mobile/images/dumbellTape.png");
-}
-
+  .dumbellTape > div {
+    background-image: url("../assets/mobile/images/dumbellTape.png");
+  }
 
   .cake > div,
   .dumbellApple > div,
   .greenPink > div,
-  .dumbellTape > div{
+  .dumbellTape > div {
     width: 262px;
     height: 131px;
   }

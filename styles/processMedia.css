@@ -6,10 +6,10 @@
 
   /* begin section */
 
-  .begin, .process-cards {
+  .begin,
+  .process-cards {
     width: 1280px;
   }
-
 }
 
 @media screen and (max-width: 1294px) {
@@ -18,45 +18,55 @@
     height: fit-content;
   }
 
-   /* begin section */
+  /* begin section */
 
-  .begin, .process-cards {
+  .begin,
+  .process-cards {
     width: 88vw;
   }
 }
 
-@media screen and (max-width:768px) {
+@media screen and (max-width: 768px) {
   .process-cards {
-  grid-template-areas:
-    "i"
-    "ii"
-    "iii"
-    "iv"
-    "v"
-    "vi"
-    "vii"
-    "viii"
-    "ix"
-    "x";
-  row-gap: 6rem;
-  column-gap: 2rem;
-}
+    grid-template-areas:
+      "i"
+      "ii"
+      "iii"
+      "iv"
+      "v"
+      "vi"
+      "vii"
+      "viii"
+      "ix"
+      "x";
+    row-gap: 6rem;
+    column-gap: 2rem;
+  }
 
-.begin {
-  margin: 2rem auto 0 auto;
-}
+  .begin {
+    margin: 2rem auto 0 auto;
+  }
 
-.work {
-  margin: 5rem auto 0 0;
-}
+  .work {
+    margin: 5rem auto 0 0;
+  }
 
-.work p {
-  margin: 1.2rem auto 10rem auto;
-}
+  .work p {
+    margin: 1.2rem auto 10rem auto;
+  }
 
-.flag, .basket, .wallet, .fork, .headset, .flash, .pin, .cap, .backpack, .cup {
-  height: 70%;
-}
+  .flag,
+  .basket,
+  .wallet,
+  .fork,
+  .headset,
+  .flash,
+  .pin,
+  .cap,
+  .backpack,
+  .cup {
+    height: 70%;
+  }
 }
 
 @media screen and (max-width: 425px) {
@@ -69,7 +79,7 @@
     height: 70%;
   }
 
-    /* begin section */
+  /* begin section */
 
   .begin {
     row-gap: 2rem;
@@ -84,12 +94,29 @@
     text-align: center;
   }
 
-  .flag, .basket, .wallet, .fork, .headset, .flash, .pin, .cap, .backpack, .cup {
-  padding: 2rem 0 0 1rem;
+  .flag,
+  .basket,
+  .wallet,
+  .fork,
+  .headset,
+  .flash,
+  .pin,
+  .cap,
+  .backpack,
+  .cup {
+    padding: 2rem 0 0 1rem;
   }
 
-  .flag p, .basket p, .wallet p, .fork p, .headset p, .flash p, .pin p, .cap p, .backpack p, .cup p {
-  width: 95%;
-}
-  
+  .flag p,
+  .basket p,
+  .wallet p,
+  .fork p,
+  .headset p,
+  .flash p,
+  .pin p,
+  .cap p,
+  .backpack p,
+  .cup p {
+    width: 95%;
+  }
 }

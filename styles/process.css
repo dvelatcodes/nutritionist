@@ -131,12 +131,20 @@
   border-radius: 0.5rem;
 }
 
-.flag, .basket, .wallet, .fork, .headset, .flash, .pin, .cap, .backpack, .cup {
+.flag,
+.basket,
+.wallet,
+.fork,
+.headset,
+.flash,
+.pin,
+.cap,
+.backpack,
+.cup {
   padding: 2rem 0 0 3rem;
   position: relative;
   z-index: 6;
 }
-
 
 .basket {
   grid-area: ii;
@@ -193,7 +201,7 @@
 }
 
 .flag::after {
-  content: '01';
+  content: "01";
   position: absolute;
   top: -8rem;
   left: 0;
@@ -204,7 +212,7 @@
 }
 
 .flag::before {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   left: 0;
@@ -217,7 +225,7 @@
 }
 
 .basket::after {
-  content: '02';
+  content: "02";
   position: absolute;
   top: -8rem;
   left: 0;
@@ -228,7 +236,7 @@
 }
 
 .basket::before {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   left: 0;
@@ -241,7 +249,7 @@
 }
 
 .wallet::after {
-  content: '03';
+  content: "03";
   position: absolute;
   top: -8rem;
   left: 0;
@@ -252,7 +260,7 @@
 }
 
 .wallet::before {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   left: 0;
@@ -265,7 +273,7 @@
 }
 
 .fork::after {
-  content: '04';
+  content: "04";
   position: absolute;
   top: -8rem;
   left: 0;
@@ -276,7 +284,7 @@
 }
 
 .fork::before {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   left: 0;
@@ -289,7 +297,7 @@
 }
 
 .headset::after {
-  content: '05';
+  content: "05";
   position: absolute;
   top: -8rem;
   left: 0;
@@ -300,7 +308,7 @@
 }
 
 .headset::before {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   left: 0;
@@ -313,7 +321,7 @@
 }
 
 .flash::after {
-  content: '06';
+  content: "06";
   position: absolute;
   top: -8rem;
   left: 0;
@@ -324,7 +332,7 @@
 }
 
 .flash::before {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   left: 0;
@@ -337,7 +345,7 @@
 }
 
 .pin::after {
-  content: '07';
+  content: "07";
   position: absolute;
   top: -8rem;
   left: 0;
@@ -348,7 +356,7 @@
 }
 
 .pin::before {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   left: 0;
@@ -361,7 +369,7 @@
 }
 
 .cap::after {
-  content: '08';
+  content: "08";
   position: absolute;
   top: -8rem;
   left: 0;
@@ -372,7 +380,7 @@
 }
 
 .cap::before {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   left: 0;
@@ -385,7 +393,7 @@
 }
 
 .backpack::after {
-  content: '09';
+  content: "09";
   position: absolute;
   top: -8rem;
   left: 0;
@@ -396,7 +404,7 @@
 }
 
 .backpack::before {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   left: 0;
@@ -409,7 +417,7 @@
 }
 
 .cup::after {
-  content: '10';
+  content: "10";
   position: absolute;
   top: -8rem;
   left: 0;
@@ -420,7 +428,7 @@
 }
 
 .cup::before {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   left: 0;
@@ -432,14 +440,31 @@
   z-index: 2;
 }
 
-
-.flag p, .basket p, .wallet p, .fork p, .headset p, .flash p, .pin p, .cap p, .backpack p, .cup p {
+.flag p,
+.basket p,
+.wallet p,
+.fork p,
+.headset p,
+.flash p,
+.pin p,
+.cap p,
+.backpack p,
+.cup p {
   margin-top: 2rem;
   position: relative;
   z-index: 6;
 }
 
-.flag img, .basket img, .wallet img, .fork img, .headset img, .flash img, .pin img, .cap img, .backpack img, .cup img {
+.flag img,
+.basket img,
+.wallet img,
+.fork img,
+.headset img,
+.flash img,
+.pin img,
+.cap img,
+.backpack img,
+.cup img {
   padding: 0.5rem 0.8rem;
   border-radius: 0.5rem;
   background-color: var(--color-lemon);
@@ -449,14 +474,22 @@
   z-index: 6;
 }
 
-.flag div, .basket div, .wallet div, .fork div, .headset div, .flash div, .pin div, .cap div, .backpack div, .cup div {
+.flag div,
+.basket div,
+.wallet div,
+.fork div,
+.headset div,
+.flash div,
+.pin div,
+.cap div,
+.backpack div,
+.cup div {
   display: flex;
   align-items: center;
   column-gap: 0.7rem;
   position: relative;
   z-index: 6;
 }
-
 
 /* .flag, .basket, .wallet, .fork, .headset, .flash, .pin, .cap, .backpack, .cup {
 

@@ -6,7 +6,8 @@
 
   /* join section */
 
-  .join, .staff-heads {
+  .join,
+  .staff-heads {
     width: 1280px;
   }
 
@@ -23,18 +24,19 @@
 
   /* join section */
 
-  .join, .staff-heads {
+  .join,
+  .staff-heads {
     width: 88vw;
   }
 
-.staff-heads {
-justify-content: center;
-gap: 0.6rem;
-}
+  .staff-heads {
+    justify-content: center;
+    gap: 0.6rem;
+  }
 
-.staff-heads section {
-  width: 70%;
-}
+  .staff-heads section {
+    width: 70%;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -45,12 +47,12 @@ gap: 0.6rem;
     display: none;
   }
 
-.management {
-  row-gap: 1rem;
-  padding-top: 1rem;
-  flex-direction: column;
-  justify-content: center;
-}
+  .management {
+    row-gap: 1rem;
+    padding-top: 1rem;
+    flex-direction: column;
+    justify-content: center;
+  }
 }
 
 @media screen and (max-width: 425px) {
