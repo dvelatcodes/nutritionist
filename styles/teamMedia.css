@@ -10,7 +10,7 @@
     width: 1280px;
   }
 
-  .blog-list span {
+  .management span {
     font-size: 16px;
   }
 }
@@ -29,12 +29,19 @@
 }
 
 @media screen and (max-width: 768px) {
-  .blog-list span:nth-child(4),
-  .blog-list span:nth-child(5),
-  .blog-list span:nth-child(6) {
+  .management span:nth-child(3),
+  .management span:nth-child(4),
+  .management span:nth-child(5) {
     width: 20vw;
     display: none;
   }
+
+.management {
+  row-gap: 1rem;
+  padding-top: 1rem;
+  flex-direction: column;
+  justify-content: center;
+}
 }
 
 @media screen and (max-width: 425px) {
@@ -47,7 +54,7 @@
     height: 70%;
   }
 
-  .blog-list span {
+  .management span {
     font-size: 14px;
   }
 
