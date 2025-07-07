@@ -60,7 +60,7 @@ email.addEventListener('keyup', () => {
 
 // phone number validation
 phone.addEventListener('keyup', () => {
-    if (phone.value.match(/[!-\/]|[:-}]|\s/) || phone.value.length < 12 || phone.value.length > 12) {
+    if (phone.value.match(/[!-\/]|[:-}]|\s/) || phone.value.length < 11 || phone.value.length > 12) {
         phoneMessage.style.color = 'red';
         phoneMessage.style.display = 'block';
         phoneMessage.innerHTML = 'wrong format';
