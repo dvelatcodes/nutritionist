@@ -4,10 +4,14 @@
     height: 427px;
   }
 
-join section */
+  /* join section */
 
   .join {
     width: 1280px;
+  }
+
+  .blog-list span {
+    font-size: 16px;
   }
 }
 
@@ -24,6 +28,15 @@ join section */
   }
 }
 
+@media screen and (max-width: 768px) {
+  .blog-list span:nth-child(4),
+  .blog-list span:nth-child(5),
+  .blog-list span:nth-child(6) {
+    width: 20vw;
+    display: none;
+  }
+}
+
 @media screen and (max-width: 425px) {
   .expert p {
     width: 93%;
@@ -32,6 +45,10 @@ join section */
   .expert::before {
     width: 70%;
     height: 70%;
+  }
+
+  .blog-list span {
+    font-size: 14px;
   }
 
   /* join section */
@@ -48,5 +65,4 @@ join section */
   .join div p {
     text-align: center;
   }
-  
 }
