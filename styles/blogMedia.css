@@ -8,7 +8,7 @@
     width: 1280px;
   }
 
-  .blog-list span {
+  .contact-list div span {
     font-size: 16px;
   }
 
@@ -177,9 +177,9 @@
 }
 
 @media screen and (max-width: 768px) {
-  .blog-list span:nth-child(4),
-  .blog-list span:nth-child(5),
-  .blog-list span:nth-child(6) {
+  .contact-list span:nth-child(4),
+  .contact-list span:nth-child(5),
+  .contact-list span:nth-child(6) {
     width: 20vw;
     display: none;
   }
@@ -212,7 +212,7 @@
     height: 70%;
   }
 
-  .blog-list span {
+  .contact-list div span {
     font-size: 14px;
   }
 

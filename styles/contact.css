@@ -1,4 +1,4 @@
-.blog-hero {
+.contactUs {
   width: 1596px;
   height: 543px;
   margin: 5rem auto 0 auto;
@@ -12,7 +12,7 @@
   position: relative;
 }
 
-.blog-hero::before {
+.contactUs::before {
   content: "";
   position: absolute;
   left: 0;
@@ -26,23 +26,58 @@
   height: 40%;
 }
 
-.blog-hero img,
-.blog-hero p,
-.blog-hero h2 {
+.contactUs img,
+.contactUs p,
+.contactUs h2 {
   position: relative;
   z-index: 5;
 }
 
-.blog-hero p {
+.contactUs p {
   text-align: center;
   width: 90%;
   margin-top: 0.3rem;
 }
 
 
-/* proud section */
+.contact-list {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 1rem;
+  padding: 3rem 0;
+  background-color: var(--color-happy);
+  border-bottom-left-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+  overflow: hidden;
+}
 
-.proud {
+.contact-list span {
+  color: var(--color-ash);
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.contact-list div span:hover {
+  color: var(--color-lemon);
+}
+
+.contact-list div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 1rem;
+  padding: 0.9rem 0.9rem;
+  background-color: var(--color-green-text);
+  border-radius: 0.5rem;
+}
+
+
+
+/* cta section */
+
+.cta {
     width: 1596px;
     border-radius: 0.5rem;
     background-color: var(--bg-light);
@@ -56,11 +91,11 @@
     z-index: 6;
 }
 
-.proud div {
+.cta div {
     width: 70%;
 }
 
-.proud::before {
+.cta::before {
     content: '';
     position: absolute;
     top: 0;
@@ -72,7 +107,7 @@
     height: 90px;
 }
 
-.proud::after {
+.cta::after {
     content: '';
     position: absolute;
     bottom: 0;
@@ -84,16 +119,17 @@
     height: 90px;
 }
 
-.proud div p{
+.cta div p{
     text-align: left;
     margin: 1rem 0 0 0;
     position: relative;
     z-index: 5;
 }
 
-.proud div h2{
+.cta div h2{
     margin: 0;
     text-align: left;
     position: relative;
     z-index: 5;
+    font-size: 2rem;
 }
