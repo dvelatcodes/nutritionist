@@ -6,7 +6,7 @@
 
   /* join section */
 
-  .join {
+  .join, .staff-heads {
     width: 1280px;
   }
 
@@ -23,9 +23,18 @@
 
   /* join section */
 
-  .join {
+  .join, .staff-heads {
     width: 88vw;
   }
+
+.staff-heads {
+justify-content: center;
+gap: 0.6rem;
+}
+
+.staff-heads section {
+  width: 70%;
+}
 }
 
 @media screen and (max-width: 768px) {
