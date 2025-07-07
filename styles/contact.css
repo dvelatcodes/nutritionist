@@ -215,7 +215,7 @@ label {
   padding: 1.7rem 0 0 1rem;
 }
 
-.fields div:nth-child(4) {
+.fields div:nth-child(1), .fields div:nth-child(2) , .fields div:nth-child(3), .fields div:nth-child(4) {
   position: relative;
 }
 
@@ -223,6 +223,15 @@ label {
   position: absolute;
   right: 0;
   bottom: -1.4rem;
+  color: var(--color-date-text);
+  font-size: 0.7rem;
+}
+
+.nameMessage, .emailMessage, .phoneMessage, .bigMessage {
+   position: absolute;
+  right: 0;
+  bottom: 0rem;
+  display: none;
   color: var(--color-date-text);
   font-size: 0.7rem;
 }
