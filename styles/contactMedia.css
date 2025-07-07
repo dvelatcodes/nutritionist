@@ -10,7 +10,7 @@
 
   /* cta section */
 
-  .cta {
+  .cta, form {
     width: 1280px;
   }
 }
@@ -23,7 +23,7 @@
 
   /* cta section */
 
-  .cta {
+  .cta, form {
     width: 88vw;
   }
 }
@@ -32,6 +32,15 @@
   .cta div h2 {
     font-size: 1.5rem;
   }
+
+  .fields {
+  width: 80%;
+}
+
+.location{
+  width: 80%;
+}
+
 }
 
 @media screen and (max-width: 768px) {
@@ -72,4 +81,21 @@
   .cta div p {
     text-align: center;
   }
+
+    .fields {
+  width: 95%;
+}
+
+.location{
+  width: 95%;
+}
+
+.fields div:nth-child(1) {
+width: 100%;
+}
+
+.fields div:nth-child(2) {
+width: 100%;
+}
+
 }
