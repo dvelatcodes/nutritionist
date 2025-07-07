@@ -77,7 +77,7 @@ phone.addEventListener('keyup', () => {
 btn.addEventListener('click', (e) => {
     e.preventDefault();
     if (emailMessage.innerHTML === 'valid format' && nameMessage.innerHTML === 'valid format' && bigMessage.innerHTML === 'valid format' && phoneMessage.innerHTML === 'valid format') {
-        alert('email submitted successfully');
+        alert('message submitted successfully');
         email.value = '';
         emailMessage.style.color = 'black';
         emailMessage.style.display = 'none';
