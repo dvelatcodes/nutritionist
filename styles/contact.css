@@ -154,9 +154,18 @@ form {
 .fields {
   display: flex;
   column-gap: 0.8rem;
+  row-gap: 1.5rem;
   width: 40%;
   flex-wrap: wrap;
   align-items: center;
+}
+
+.fields div:nth-child(1) {
+width: 45%;
+}
+
+.fields div:nth-child(2) {
+width: 45%;
 }
 
 .fields div:nth-child(3) {
@@ -167,7 +176,7 @@ width: 100%;
 width: 100%;
 }
 
-.fields div:nth-child(5) {
+.fields button {
 width: 100%;
 }
 
@@ -176,4 +185,59 @@ width: 100%;
   flex-direction: column;
   row-gap: 0.3rem;
   align-items: start;
+}
+
+label{
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--color-blog-p-text);
+}
+
+.fields input, .fields textarea {
+background-color: var(--color-input);
+border-radius: 0.3rem;
+border: 0.1px solid rgb(236, 236, 236);
+}
+
+.fields div:nth-child(1) input, .fields div:nth-child(2) input {
+width: 100%;
+height: 60px;
+padding: 0.1rem 0 0 1rem;
+}
+
+.fields div:nth-child(3) input {
+width: 100%;
+height: 68px;
+padding: 0.1rem 0 0 1rem;
+}
+
+.fields div:nth-child(4) textarea {
+width: 100%;
+height: 135px;
+padding: 1.7rem 0 0 1rem;
+}
+
+.fields div:nth-child(4) {
+position: relative;
+}
+
+.fields div:nth-child(4) span {
+position: absolute;
+right: 0;
+bottom: -1.4rem;
+color: var(--color-date-text);
+font-size: 0.7rem;
+}
+
+.fields button {
+width: 100%;
+height: 63px;
+border: none;
+background-color: var(--color-lemon);
+cursor: pointer;
+margin-top: 1.3rem;
+}
+
+.fields button:hover {
+  background-color: var(--color-thick-lemon);
 }
